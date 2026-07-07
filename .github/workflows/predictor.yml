@@ -2,8 +2,8 @@ name: MLB Predictor
 
 on:
   schedule:
-    # 06:00 Peru (11:00 UTC) todos los dias
-    - cron: '0 11 * * *'
+    # Cada 3 horas
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 permissions:
