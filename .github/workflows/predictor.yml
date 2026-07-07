@@ -22,7 +22,7 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          pip install requests requests-cache
+          pip install requests requests-cache rich
 
       - name: Ejecutar predictor
         run: python3 mlbpredictor.py
