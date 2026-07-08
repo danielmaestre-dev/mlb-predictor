@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 from api import collect_all_games
 
-APP_DIR = os.path.expanduser('~/.mlbpredictor')
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = f'{APP_DIR}/data'
 
 ELO_BASE = 1500

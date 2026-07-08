@@ -18,7 +18,7 @@ from model import (
 from display import console, display_table, write_log
 from report import generate as generate_report, open_report
 
-APP_DIR = os.path.expanduser('~/.mlbpredictor')
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = f'{APP_DIR}/data'
 HISTORY_FILE = f'{DATA_DIR}/history.json'
 SIMPLE = not sys.stdout.isatty() or 'FLATPAK_ID' in os.environ or '--simple' in sys.argv

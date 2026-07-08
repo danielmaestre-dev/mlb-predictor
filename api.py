@@ -10,7 +10,7 @@ import requests
 import requests_cache
 from requests import ConnectionError, Timeout
 
-APP_DIR = os.path.expanduser('~/.mlbpredictor')
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = f'{APP_DIR}/data'
 PARK_FACTORS_PATH = f'{DATA_DIR}/park_factors.json'
 

@@ -5,7 +5,7 @@ from rich.console import Console
 from rich.table import Table
 from rich import box
 
-APP_DIR = os.path.expanduser('~/.mlbpredictor')
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
 LOG_FILE = f'{APP_DIR}/logs/predictor_logs.txt'
 
 console = Console()

@@ -2,7 +2,7 @@ import os
 import webbrowser
 from datetime import datetime
 
-APP_DIR = os.path.expanduser('~/.mlbpredictor')
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
 REPORT_FILE = f'{APP_DIR}/report.html'
 
 
