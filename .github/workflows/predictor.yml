@@ -24,14 +24,17 @@ jobs:
         run: |
           pip install requests requests-cache rich
 
+      - name: Sincronizar con remote antes de ejecutar
+        run: |
+          git config user.email "danielmaestre-dev@users.noreply.github.com"
+          git config user.name "danielmaestre-dev"
+          git pull --rebase origin main
+
       - name: Ejecutar predictor
         run: python3 mlbpredictor.py
 
       - name: Commit y push del history
         run: |
-          git config user.email "danielmaestre-dev@users.noreply.github.com"
-          git config user.name "danielmaestre-dev"
-          git pull --rebase origin main
           git add data/history.json
           git diff --staged --quiet || git commit -m "Actualizar history.json $(date +%Y-%m-%d-%H)"
           git push
