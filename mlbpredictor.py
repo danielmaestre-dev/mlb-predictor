@@ -106,6 +106,13 @@ def add_predictions_to_history(history, results):
             'predicted_prob': winner_prob,
             'actual_winner': actual if r.get('completed') else None,
             'resolved': bool(r.get('completed')),
+            'diff': r.get('diff'),
+            'p_home_mkt': r.get('p_home_mkt'),
+            'p_away_mkt': r.get('p_away_mkt'),
+            'ev_home': r.get('ev_home'),
+            'ev_away': r.get('ev_away'),
+            'ev': r.get('ev'),
+            'conf': r.get('conf'),
         }
     recalc_stats(history)
     return history
@@ -281,6 +288,12 @@ def predict_league():
 
 
 def run_prediction():
+    try:
+        subprocess.run(['git', '-C', APP_DIR, 'pull', 'origin', 'main'],
+                      capture_output=True, timeout=30)
+    except Exception:
+        pass
+
     print('Predictor Deportivo - MLB')
     print('=' * 40)
 
@@ -406,17 +419,17 @@ def show_report():
                 'home_record': '',
                 'p_away': 100 - p_home,
                 'p_home': p_home,
-                'p_away_mkt': None,
-                'p_home_mkt': None,
-                'diff': None,
+                'p_away_mkt': p.get('p_away_mkt'),
+                'p_home_mkt': p.get('p_home_mkt'),
+                'diff': p.get('diff'),
                 'away_pitcher_name': '',
                 'home_pitcher_name': '',
                 'away_pitcher_era': None,
                 'home_pitcher_era': None,
-                'ev_home': None,
-                'ev_away': None,
-                'ev': None,
-                'conf': 'N/A',
+                'ev_home': p.get('ev_home'),
+                'ev_away': p.get('ev_away'),
+                'ev': p.get('ev'),
+                'conf': p.get('conf', 'N/A'),
                 'pick_team': p.get('predicted_winner', ''),
                 'pick_prob': p.get('predicted_prob', 50),
                 'venue': '',
