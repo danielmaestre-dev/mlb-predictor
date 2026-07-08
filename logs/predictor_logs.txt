@@ -89,3 +89,5 @@
 [2026-07-07 20:10] 12 partidos (0 jugados) | Detroit Tigers 81% | Washington Nationals 65% | Tampa Bay Rays 58%
 [2026-07-07 20:13] 12 partidos (0 jugados) | Detroit Tigers 77% | Cincinnati Reds 73% | Washington Nationals 65%
 [2026-07-07 20:17] 12 partidos (1 jugados) | Detroit Tigers 71% | Washington Nationals 59% | Miami Marlins 58%
+[2026-07-07 20:21] 12 partidos (1 jugados) | Detroit Tigers 71% | New York Mets 69% | Washington Nationals 58%
+[2026-07-07 20:45] 12 partidos (4 jugados) | Washington Nationals 68% | Philadelphia Phillies 63% | Miami Marlins 58%

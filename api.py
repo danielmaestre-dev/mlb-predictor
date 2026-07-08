@@ -4,6 +4,8 @@ import time
 from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+PERU_TZ = timezone(timedelta(hours=-5))
+
 import requests
 import requests_cache
 from requests import ConnectionError, Timeout
@@ -188,9 +190,9 @@ def collect_all_games(teams_dict, sport, league, season):
 
 
 def get_games(sport, league, valid_abbrevs, limit=15):
-    now_local = datetime.now()
-    today = now_local.strftime('%Y%m%d')
-    today_fmt = now_local.strftime('%Y-%m-%d')
+    now_peru = datetime.now(PERU_TZ)
+    today = now_peru.strftime('%Y%m%d')
+    today_fmt = now_peru.strftime('%Y-%m-%d')
 
     games_data = []
     try:

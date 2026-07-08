@@ -2771,8 +2771,8 @@
       "away_name": "Athletics",
       "predicted_winner": "DET",
       "predicted_prob": 69.53874958349584,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "DET",
+      "resolved": true,
       "diff": null,
       "p_home_mkt": null,
       "p_away_mkt": null,
@@ -2790,8 +2790,8 @@
       "away_name": "Atlanta Braves",
       "predicted_winner": "ATL",
       "predicted_prob": 52.84760609316112,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PIT",
+      "resolved": true,
       "diff": null,
       "p_home_mkt": null,
       "p_away_mkt": null,
@@ -2809,8 +2809,8 @@
       "away_name": "New York Yankees",
       "predicted_winner": "TB",
       "predicted_prob": 58.17445034174591,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": null,
       "p_home_mkt": null,
       "p_away_mkt": null,
@@ -3182,8 +3182,8 @@
     }
   },
   "stats": {
-    "total": 227,
-    "correct": 122,
-    "accuracy": 0.5374449339207048
+    "total": 230,
+    "correct": 124,
+    "accuracy": 0.5391304347826087
   }
 }

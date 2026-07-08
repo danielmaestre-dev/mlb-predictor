@@ -3,7 +3,9 @@ import os
 import json
 import subprocess
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+
+PERU_TZ = timezone(timedelta(hours=-5))
 
 from api import (
     get_games, get_standings, fetch_json, load_park_factors, american_to_decimal
@@ -53,7 +55,7 @@ def resolve_predictions(history, sport, league):
     if not unresolved:
         return history
 
-    year = datetime.now().strftime('%Y')
+    year = datetime.now(PERU_TZ).strftime('%Y')
     dates_seen = set()
     for p in unresolved.values():
         gd = p.get('game_date', '')
@@ -100,7 +102,7 @@ def add_predictions_to_history(history, results):
         winner_prob = r['p_home'] if r['p_home'] >= r['p_away'] else r['p_away']
         actual = r.get('actual_winner')
         history['predictions'][gid] = {
-            'date_predicted': datetime.now().strftime('%Y-%m-%d'),
+            'date_predicted': datetime.now(PERU_TZ).strftime('%Y-%m-%d'),
             'game_date': r['inicio'],
             'home_abbr': r['home_abbr'],
             'away_abbr': r['away_abbr'],
