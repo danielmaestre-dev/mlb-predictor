@@ -148,8 +148,15 @@ def write_log(results, history):
     if s['total'] > 0:
         print(f'\nPrecision historica: {s["correct"]}/{s["total"]} ({s["accuracy"]*100:.1f}%)')
 
-    hoy_acertadas = sum(1 for r in completed if r.get('pick_result') is True)
-    hoy_total = len(completed)
+    preds = history.get('predictions', {})
+    hoy_acertadas = 0
+    hoy_total = 0
+    for r in completed:
+        saved = preds.get(r.get('game_id', ''), {})
+        if saved.get('resolved'):
+            hoy_total += 1
+            if saved.get('actual_winner') == saved.get('predicted_winner'):
+                hoy_acertadas += 1
     if hoy_total > 0:
         print(f'Hoy: {hoy_acertadas}/{hoy_total} ({hoy_acertadas/hoy_total*100:.0f}%) acertados de {hoy_total} jugados')
 
