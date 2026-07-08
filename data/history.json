@@ -2734,7 +2734,14 @@
       "predicted_winner": "MIL",
       "predicted_prob": 61.972349448111366,
       "actual_winner": "MIL",
-      "resolved": true
+      "resolved": true,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816055": {
       "date_predicted": "2026-07-06",
@@ -2746,7 +2753,14 @@
       "predicted_winner": "CHC",
       "predicted_prob": 56.61285198804416,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816053": {
       "date_predicted": "2026-07-06",
@@ -2758,7 +2772,14 @@
       "predicted_winner": "DET",
       "predicted_prob": 69.53874958349584,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816054": {
       "date_predicted": "2026-07-06",
@@ -2770,7 +2791,14 @@
       "predicted_winner": "ATL",
       "predicted_prob": 52.84760609316112,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816058": {
       "date_predicted": "2026-07-06",
@@ -2782,7 +2810,14 @@
       "predicted_winner": "TB",
       "predicted_prob": 58.17445034174591,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816060": {
       "date_predicted": "2026-07-06",
@@ -2794,7 +2829,14 @@
       "predicted_winner": "MIA",
       "predicted_prob": 57.74915744835013,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816056": {
       "date_predicted": "2026-07-06",
@@ -2806,7 +2848,14 @@
       "predicted_winner": "WSH",
       "predicted_prob": 66.5809037404057,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816057": {
       "date_predicted": "2026-07-06",
@@ -2818,7 +2867,14 @@
       "predicted_winner": "NYM",
       "predicted_prob": 72.91240747653455,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816059": {
       "date_predicted": "2026-07-06",
@@ -2830,7 +2886,14 @@
       "predicted_winner": "PHI",
       "predicted_prob": 53.99135887179515,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816062": {
       "date_predicted": "2026-07-06",
@@ -2842,7 +2905,14 @@
       "predicted_winner": "BOS",
       "predicted_prob": 50.16963600121047,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816063": {
       "date_predicted": "2026-07-06",
@@ -2854,7 +2924,14 @@
       "predicted_winner": "MIN",
       "predicted_prob": 53.709478634582695,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816064": {
       "date_predicted": "2026-07-06",
@@ -2866,7 +2943,14 @@
       "predicted_winner": "MIL",
       "predicted_prob": 57.827129178465036,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816082": {
       "date_predicted": "2026-07-07",

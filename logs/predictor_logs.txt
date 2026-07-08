@@ -84,3 +84,8 @@
 [2026-07-07 19:00] 12 partidos (0 jugados) | Detroit Tigers 77% | New York Mets 73% | Tampa Bay Rays 58%
 [2026-07-07 19:57] 12 partidos (0 jugados) | Detroit Tigers 76% | New York Mets 74% | Milwaukee Brewers 60%
 [2026-07-07 19:59] 12 partidos (0 jugados) | Detroit Tigers 76% | Milwaukee Brewers 60% | Tampa Bay Rays 58%
+[2026-07-07 20:00] 12 partidos (0 jugados) | Detroit Tigers 76% | Tampa Bay Rays 58% | Cleveland Guardians 57%
+[2026-07-07 20:10] 12 partidos (0 jugados) | Detroit Tigers 76% | Washington Nationals 64% | Tampa Bay Rays 58%
+[2026-07-07 20:10] 12 partidos (0 jugados) | Detroit Tigers 81% | Washington Nationals 65% | Tampa Bay Rays 58%
+[2026-07-07 20:13] 12 partidos (0 jugados) | Detroit Tigers 77% | Cincinnati Reds 73% | Washington Nationals 65%
+[2026-07-07 20:17] 12 partidos (1 jugados) | Detroit Tigers 71% | Washington Nationals 59% | Miami Marlins 58%

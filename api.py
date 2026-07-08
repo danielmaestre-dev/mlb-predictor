@@ -188,9 +188,9 @@ def collect_all_games(teams_dict, sport, league, season):
 
 
 def get_games(sport, league, valid_abbrevs, limit=15):
-    now_utc = datetime.now(timezone.utc)
-    today = now_utc.strftime('%Y%m%d')
-    today_fmt = now_utc.strftime('%Y-%m-%d')
+    now_local = datetime.now()
+    today = now_local.strftime('%Y%m%d')
+    today_fmt = now_local.strftime('%Y-%m-%d')
 
     games_data = []
     try:
