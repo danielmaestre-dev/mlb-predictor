@@ -2878,7 +2878,14 @@
       "predicted_winner": "TOR",
       "predicted_prob": 55.01174091311904,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": 0.8564222634472856,
+      "p_home_mkt": 50.43297540699688,
+      "p_away_mkt": 49.56702459300312,
+      "ev_home": -6.15866726399541,
+      "ev_away": -2.8881764246140307,
+      "ev": -2.8881764246140307,
+      "conf": "A"
     },
     "401816070": {
       "date_predicted": "2026-07-07",
@@ -2890,7 +2897,14 @@
       "predicted_winner": "CHC",
       "predicted_prob": 55.18678150382404,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": 6.923194074798566,
+      "p_home_mkt": 51.736412571627014,
+      "p_away_mkt": 48.26358742837298,
+      "ev_home": -17.20947769229998,
+      "ev_away": 9.291469251378937,
+      "ev": 9.291469251378937,
+      "conf": "B"
     },
     "401816068": {
       "date_predicted": "2026-07-07",
@@ -2902,7 +2916,14 @@
       "predicted_winner": "DET",
       "predicted_prob": 76.69134539359297,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": 16.56696594223481,
+      "p_home_mkt": 59.2910765420633,
+      "p_away_mkt": 40.70892345793669,
+      "ev_home": 22.396718855033136,
+      "ev_away": -43.266399838100554,
+      "ev": 22.396718855033136,
+      "conf": "D"
     },
     "401816069": {
       "date_predicted": "2026-07-07",
@@ -2914,7 +2935,14 @@
       "predicted_winner": "ATL",
       "predicted_prob": 53.22993463500321,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": 4.96634719614066,
+      "p_home_mkt": 51.736412571627014,
+      "p_away_mkt": 48.26358742837298,
+      "ev_home": -13.594286001220123,
+      "ev_away": 5.416145040703491,
+      "ev": 5.416145040703491,
+      "conf": "B"
     },
     "401816073": {
       "date_predicted": "2026-07-07",
@@ -2926,7 +2954,14 @@
       "predicted_winner": "TB",
       "predicted_prob": 58.476550073972966,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": 5.263565641838021,
+      "p_home_mkt": 53.2129844319311,
+      "p_away_mkt": 46.787015568068895,
+      "ev_home": 4.886510449776349,
+      "ev_away": -15.292162150488997,
+      "ev": 4.886510449776349,
+      "conf": "B"
     },
     "401816075": {
       "date_predicted": "2026-07-07",
@@ -2938,7 +2973,14 @@
       "predicted_winner": "MIA",
       "predicted_prob": 54.88229584693981,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816071": {
       "date_predicted": "2026-07-07",
@@ -2950,7 +2992,14 @@
       "predicted_winner": "WSH",
       "predicted_prob": 52.34613639718122,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": -1.6123160218574384,
+      "p_home_mkt": 55.1057677674631,
+      "p_away_mkt": 44.89423223253691,
+      "ev_home": -7.173127853213712,
+      "ev_away": -0.9410522181400705,
+      "ev": -7.173127853213712,
+      "conf": "A"
     },
     "401816074": {
       "date_predicted": "2026-07-07",
@@ -2962,7 +3011,14 @@
       "predicted_winner": "CIN",
       "predicted_prob": 54.30751474580521,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816072": {
       "date_predicted": "2026-07-07",
@@ -2974,7 +3030,14 @@
       "predicted_winner": "NYM",
       "predicted_prob": 72.90830294946305,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     },
     "401816077": {
       "date_predicted": "2026-07-07",
@@ -2986,7 +3049,14 @@
       "predicted_winner": "CHW",
       "predicted_prob": 53.878463945635794,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": 0.3529628252110726,
+      "p_home_mkt": 54.23839616474177,
+      "p_away_mkt": 45.76160383525823,
+      "ev_home": -3.7358478879457535,
+      "ev_away": -5.095940289001444,
+      "ev": -3.7358478879457535,
+      "conf": "A"
     },
     "401816078": {
       "date_predicted": "2026-07-07",
@@ -2998,7 +3068,14 @@
       "predicted_winner": "CLE",
       "predicted_prob": 55.866838292861694,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": -4.253983053070677,
+      "p_home_mkt": 55.1057677674631,
+      "p_away_mkt": 44.89423223253691,
+      "ev_home": -11.75719711326021,
+      "ev_away": 4.685698558344131,
+      "ev": -11.75719711326021,
+      "conf": "B"
     },
     "401816079": {
       "date_predicted": "2026-07-07",
@@ -3010,7 +3087,14 @@
       "predicted_winner": "MIL",
       "predicted_prob": 56.04021522514492,
       "actual_winner": null,
-      "resolved": false
+      "resolved": false,
+      "diff": 5.630795501118612,
+      "p_home_mkt": 45.76160383525823,
+      "p_away_mkt": 54.23839616474177,
+      "ev_home": -16.126610581648205,
+      "ev_away": 5.570864693234734,
+      "ev": 5.570864693234734,
+      "conf": "B"
     }
   },
   "stats": {

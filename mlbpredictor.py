@@ -91,6 +91,10 @@ def add_predictions_to_history(history, results):
     for r in results:
         gid = r['game_id']
         if gid in history['predictions']:
+            existing = history['predictions'][gid]
+            if existing.get('diff') is None:
+                for field in ('diff', 'p_home_mkt', 'p_away_mkt', 'ev_home', 'ev_away', 'ev', 'conf'):
+                    existing[field] = r.get(field)
             continue
         winner = r['home_abbr'] if r['p_home'] >= r['p_away'] else r['away_abbr']
         winner_prob = r['p_home'] if r['p_home'] >= r['p_away'] else r['p_away']
