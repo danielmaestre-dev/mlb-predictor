@@ -958,13 +958,13 @@
       "predicted_prob": 54.88229584693981,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 10.667038200328413,
+      "p_home_mkt": 45.76160383525823,
+      "p_away_mkt": 54.23839616474177,
+      "ev_home": 17.93586185437608,
+      "ev_away": -23.168063436797816,
+      "ev": 17.93586185437608,
+      "conf": "C"
     },
     "401816071": {
       "date_predicted": "2026-07-07",
