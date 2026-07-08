@@ -247,8 +247,16 @@ def get_games(sport, league, valid_abbrevs, limit=15):
         away_odds_str = ''
         if odds:
             ml = odds[0].get('moneyline', {})
-            home_odds_str = ml.get('home', {}).get('close', {}).get('odds', '')
-            away_odds_str = ml.get('away', {}).get('close', {}).get('odds', '')
+            raw_home = ml.get('home', '')
+            raw_away = ml.get('away', '')
+            if isinstance(raw_home, dict):
+                home_odds_str = str(raw_home.get('close', {}).get('odds', ''))
+            else:
+                home_odds_str = str(raw_home) if raw_home else ''
+            if isinstance(raw_away, dict):
+                away_odds_str = str(raw_away.get('close', {}).get('odds', ''))
+            else:
+                away_odds_str = str(raw_away) if raw_away else ''
             p_h = american_to_prob(home_odds_str)
             p_a = american_to_prob(away_odds_str)
             if p_h and p_a and (p_h + p_a) > 0:

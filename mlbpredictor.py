@@ -295,7 +295,7 @@ def predict_league():
 
 def run_prediction():
     try:
-        subprocess.run(['git', '-C', APP_DIR, 'pull', 'origin', 'main'],
+        subprocess.run(['git', '-C', APP_DIR, 'pull', '--rebase', 'origin', 'main'],
                       capture_output=True, timeout=30)
     except Exception:
         pass

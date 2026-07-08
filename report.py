@@ -1,7 +1,8 @@
 import os
 import webbrowser
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
+PERU_TZ = timezone(timedelta(hours=-5))
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 REPORT_FILE = f'{APP_DIR}/report.html'
 
@@ -175,7 +176,7 @@ def generate(results, history):
         <div class="pick-detail">vs {opp} &middot; <strong>{prob:.0f}%</strong> {_conf_badge(conf)} {ev}</div>
       </div>'''
 
-    today_str = datetime.now().strftime('%A, %d de %B de %Y')
+    today_str = datetime.now(PERU_TZ).strftime('%A, %d de %B de %Y')
     months = {'Monday': 'Lunes', 'Tuesday': 'Martes', 'Wednesday': 'Miércoles', 'Thursday': 'Jueves',
               'Friday': 'Viernes', 'Saturday': 'Sábado', 'Sunday': 'Domingo'}
     months_es = {'January': 'enero', 'February': 'febrero', 'March': 'marzo', 'April': 'abril',
@@ -197,7 +198,7 @@ def generate(results, history):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MLB Predictor &mdash; {datetime.now().strftime("%Y-%m-%d")}</title>
+<title>MLB Predictor &mdash; {datetime.now(PERU_TZ).strftime("%Y-%m-%d")}</title>
 <style>{CSS}</style>
 </head>
 <body>

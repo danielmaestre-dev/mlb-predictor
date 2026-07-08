@@ -1,10 +1,11 @@
 import os
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 from rich.console import Console
 from rich.table import Table
 from rich import box
 
+PERU_TZ = timezone(timedelta(hours=-5))
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 LOG_FILE = f'{APP_DIR}/logs/predictor_logs.txt'
 
@@ -131,7 +132,7 @@ def write_log(results, history):
     upcoming = [r for r in results if not r.get('completed') and not r.get('in_progress')]
 
     log_line = (
-        f'[{datetime.now().strftime("%Y-%m-%d %H:%M")}] '
+        f'[{datetime.now(PERU_TZ).strftime("%Y-%m-%d %H:%M")}] '
         f'{len(results)} partidos ({len(completed)} jugados) | '
         + ' | '.join(
             f'{r["home_name"] if r["p_home"] >= r["p_away"] else r["away_name"]} '
