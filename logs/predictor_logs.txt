@@ -106,3 +106,5 @@
 [2026-07-08 23:49] 15 partidos (14 jugados) | Arizona Diamondbacks 54%
 [2026-07-08 23:49] 15 partidos (14 jugados) | San Diego Padres 61%
 [2026-07-08 23:50] 15 partidos (14 jugados) | San Diego Padres 61%
+[2026-07-09 00:00] 13 partidos (0 jugados) | Detroit Tigers 78% | San Francisco Giants 78% | Chicago Cubs 60%
+[2026-07-09 00:00] 13 partidos (0 jugados) | New York Mets 83% | Detroit Tigers 62% | Chicago Cubs 60%
