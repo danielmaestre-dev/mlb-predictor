@@ -1376,13 +1376,13 @@
       "predicted_prob": 51.55479504900394,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 32.71839408933744,
+      "p_home_mkt": 56.19569528067202,
+      "p_away_mkt": 43.80430471932797,
+      "ev_home": -60.105005667872,
+      "ev_away": 66.81948340289057,
+      "ev": 66.81948340289057,
+      "conf": "D"
     }
   },
   "stats": {
