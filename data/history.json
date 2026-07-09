@@ -1108,8 +1108,8 @@
       "away_name": "Arizona Diamondbacks",
       "predicted_winner": "ARI",
       "predicted_prob": 53.81881369221003,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": null,
       "p_home_mkt": null,
       "p_away_mkt": null,
@@ -1386,8 +1386,8 @@
     }
   },
   "stats": {
-    "total": 78,
+    "total": 79,
     "correct": 47,
-    "accuracy": 0.6025641025641025
+    "accuracy": 0.5949367088607594
   }
 }
