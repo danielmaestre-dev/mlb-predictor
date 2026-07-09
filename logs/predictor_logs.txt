@@ -97,3 +97,12 @@
 [2026-07-07 23:49] 12 partidos (12 jugados) | 
 [2026-07-07 23:49] 12 partidos (12 jugados) | 
 [2026-07-07 23:49] 12 partidos (12 jugados) | 
+[2026-07-07 23:52] 12 partidos (12 jugados) | 
+[2026-07-07 23:52] 12 partidos (12 jugados) | 
+[2026-07-08 10:09] 12 partidos (0 jugados) | Cincinnati Reds 74% | Washington Nationals 64% | Detroit Tigers 63%
+[2026-07-08 10:32] 12 partidos (0 jugados) | Detroit Tigers 79% | Washington Nationals 71% | Tampa Bay Rays 59%
+[2026-07-08 21:01] 12 partidos (7 jugados) | New York Mets 75% | Milwaukee Brewers 62% | Minnesota Twins 53%
+[2026-07-08 22:00] 12 partidos (7 jugados) | New York Mets 86% | Milwaukee Brewers 62% | Minnesota Twins 54%
+[2026-07-08 23:49] 15 partidos (14 jugados) | Arizona Diamondbacks 54%
+[2026-07-08 23:49] 15 partidos (14 jugados) | San Diego Padres 61%
+[2026-07-08 23:50] 15 partidos (14 jugados) | San Diego Padres 61%
