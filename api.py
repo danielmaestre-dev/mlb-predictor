@@ -214,7 +214,12 @@ def get_games(sport, league, valid_abbrevs, limit=15):
         st = ev.get('season', {}).get('type', 0)
         if st not in (2, 3):
             continue
-        if ev.get('date', '')[:10] != today_fmt:
+        ev_date = ev.get('date', '')
+        try:
+            ev_dt = datetime.fromisoformat(ev_date.replace('Z', '+00:00'))
+            if ev_dt.astimezone(PERU_TZ).strftime('%Y-%m-%d') != today_fmt:
+                continue
+        except Exception:
             continue
         competitors = comp.get('competitors', [])
         if len(competitors) < 2:
