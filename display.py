@@ -6,7 +6,7 @@ from rich.table import Table
 from rich import box
 
 PERU_TZ = timezone(timedelta(hours=-5))
-APP_DIR = os.path.dirname(os.path.abspath(__file__))
+APP_DIR = os.path.dirname(os.path.realpath(__file__))
 LOG_FILE = f'{APP_DIR}/logs/predictor_logs.txt'
 
 console = Console()

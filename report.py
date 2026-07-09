@@ -3,7 +3,7 @@ import webbrowser
 from datetime import datetime, timedelta, timezone
 
 PERU_TZ = timezone(timedelta(hours=-5))
-APP_DIR = os.path.dirname(os.path.abspath(__file__))
+APP_DIR = os.path.dirname(os.path.realpath(__file__))
 REPORT_FILE = f'{APP_DIR}/report.html'
 
 
