@@ -1260,8 +1260,8 @@
       "away_name": "Athletics",
       "predicted_winner": "DET",
       "predicted_prob": 62.35426187802595,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "DET",
+      "resolved": true,
       "diff": 5.975543342556847,
       "p_home_mkt": 56.378718535469105,
       "p_away_mkt": 43.621281464530895,
@@ -1279,8 +1279,8 @@
       "away_name": "Seattle Mariners",
       "predicted_winner": "MIA",
       "predicted_prob": 52.563792971488624,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIA",
+      "resolved": true,
       "diff": 9.726557263469978,
       "p_home_mkt": 42.837235708018646,
       "p_away_mkt": 57.16276429198135,
@@ -1298,8 +1298,8 @@
       "away_name": "Philadelphia Phillies",
       "predicted_winner": "CIN",
       "predicted_prob": 51.80080345932969,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PHI",
+      "resolved": true,
       "diff": 11.977794609772168,
       "p_home_mkt": 39.823008849557525,
       "p_away_mkt": 60.17699115044248,
@@ -1386,8 +1386,8 @@
     }
   },
   "stats": {
-    "total": 85,
-    "correct": 50,
-    "accuracy": 0.5882352941176471
+    "total": 88,
+    "correct": 52,
+    "accuracy": 0.5909090909090909
   }
 }
