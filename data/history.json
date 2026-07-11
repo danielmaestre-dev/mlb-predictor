@@ -1659,8 +1659,8 @@
       "away_name": "Colorado Rockies",
       "predicted_winner": "SF",
       "predicted_prob": 54.82336799161054,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "COL",
+      "resolved": true,
       "diff": -4.4677085504527625,
       "p_home_mkt": 59.2910765420633,
       "p_away_mkt": 40.70892345793669,
@@ -1975,8 +1975,8 @@
     }
   },
   "stats": {
-    "total": 105,
+    "total": 106,
     "correct": 60,
-    "accuracy": 0.5714285714285714
+    "accuracy": 0.5660377358490566
   }
 }
