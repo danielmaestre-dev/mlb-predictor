@@ -1678,8 +1678,8 @@
       "away_name": "Milwaukee Brewers",
       "predicted_winner": "MIL",
       "predicted_prob": 54.83199000161896,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PIT",
+      "resolved": true,
       "diff": 15.534080049876387,
       "p_home_mkt": 51.08342361863488,
       "p_away_mkt": 48.91657638136511,
@@ -1697,8 +1697,8 @@
       "away_name": "Los Angeles Angels",
       "predicted_winner": "MIN",
       "predicted_prob": 60.108453718200764,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIN",
+      "resolved": true,
       "diff": -2.089859745015282,
       "p_home_mkt": 62.198313463216046,
       "p_away_mkt": 37.80168653678395,
@@ -1716,8 +1716,8 @@
       "away_name": "Athletics",
       "predicted_winner": "CHW",
       "predicted_prob": 59.38268207078361,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 10.466105689418498,
       "p_home_mkt": 48.91657638136511,
       "p_away_mkt": 51.08342361863488,
@@ -1975,8 +1975,8 @@
     }
   },
   "stats": {
-    "total": 106,
-    "correct": 60,
-    "accuracy": 0.5660377358490566
+    "total": 109,
+    "correct": 62,
+    "accuracy": 0.5688073394495413
   }
 }
