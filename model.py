@@ -38,14 +38,14 @@ def compute_league_avg_era(teams_dict):
     total, count = 0, 0
     for td in teams_dict.values():
         s = td['stats']
-    for stat_name in ('avgPointsAgainst', 'era', 'earnedRunAverage', 'teamEra'):
-        if stat_name in s:
-            try:
-                total += float(s[stat_name])
-                count += 1
-            except ValueError:
-                pass
-            break
+        for stat_name in ('avgPointsAgainst', 'era', 'earnedRunAverage', 'teamEra'):
+            if stat_name in s:
+                try:
+                    total += float(s[stat_name])
+                    count += 1
+                except ValueError:
+                    pass
+                break
     return total / count if count > 0 else MLB_AVG_ERA
 
 

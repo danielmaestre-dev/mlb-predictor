@@ -108,3 +108,34 @@
 [2026-07-08 23:50] 15 partidos (14 jugados) | San Diego Padres 61%
 [2026-07-09 00:00] 13 partidos (0 jugados) | Detroit Tigers 78% | San Francisco Giants 78% | Chicago Cubs 60%
 [2026-07-09 00:00] 13 partidos (0 jugados) | New York Mets 83% | Detroit Tigers 62% | Chicago Cubs 60%
+[2026-07-09 00:37] 13 partidos (0 jugados) | Cincinnati Reds 71% | Tampa Bay Rays 63% | Detroit Tigers 62%
+[2026-07-09 01:00] 13 partidos (0 jugados) | New York Mets 71% | Detroit Tigers 62% | Milwaukee Brewers 61%
+[2026-07-09 01:00] 13 partidos (0 jugados) | Cincinnati Reds 71% | Detroit Tigers 62% | Chicago Cubs 61%
+[2026-07-09 02:01] 13 partidos (0 jugados) | New York Mets 71% | Tampa Bay Rays 63% | Detroit Tigers 62%
+[2026-07-09 03:00] 13 partidos (0 jugados) | Cincinnati Reds 71% | Detroit Tigers 63% | Chicago Cubs 61%
+[2026-07-09 04:00] 13 partidos (0 jugados) | New York Mets 71% | Tampa Bay Rays 63% | Detroit Tigers 62%
+[2026-07-09 05:00] 13 partidos (0 jugados) | New York Mets 70% | Detroit Tigers 63% | San Diego Padres 61%
+[2026-07-09 06:01] 13 partidos (0 jugados) | New York Mets 71% | Tampa Bay Rays 63% | Detroit Tigers 62%
+[2026-07-09 07:00] 13 partidos (0 jugados) | New York Mets 71% | Detroit Tigers 63% | Tampa Bay Rays 63%
+[2026-07-09 08:01] 13 partidos (0 jugados) | New York Mets 71% | Tampa Bay Rays 63% | Detroit Tigers 62%
+[2026-07-10 00:00] 15 partidos (0 jugados) | San Diego Padres 78% | Los Angeles Dodgers 64% | Chicago White Sox 64%
+[2026-07-10 01:00] 15 partidos (0 jugados) | Cincinnati Reds 64% | Chicago White Sox 64% | Los Angeles Dodgers 60%
+[2026-07-10 13:55] 15 partidos (0 jugados) | New York Mets 66% | Los Angeles Dodgers 65% | Chicago White Sox 64%
+[2026-07-10 14:00] 15 partidos (0 jugados) | Colorado Rockies 71% | Chicago White Sox 67% | Detroit Tigers 67%
+[2026-07-10 15:00] 15 partidos (0 jugados) | San Diego Padres 78% | Los Angeles Dodgers 64% | Chicago White Sox 64%
+[2026-07-10 16:30] 15 partidos (0 jugados) | Cincinnati Reds 64% | Chicago White Sox 64% | Tampa Bay Rays 62%
+[2026-07-10 17:00] 15 partidos (0 jugados) | New York Mets 66% | San Diego Padres 65% | Chicago White Sox 64%
+[2026-07-10 18:00] 15 partidos (0 jugados) | New York Mets 66% | Chicago White Sox 64% | San Diego Padres 63%
+[2026-07-10 19:00] 15 partidos (0 jugados) | New York Mets 66% | San Diego Padres 65% | Chicago White Sox 65%
+[2026-07-10 21:00] 15 partidos (1 jugados) | Colorado Rockies 71% | Chicago White Sox 64% | Chicago Cubs 62%
+[2026-07-10 22:00] 15 partidos (10 jugados) | Washington Nationals 58% | San Francisco Giants 56% | Los Angeles Dodgers 55%
+[2026-07-10 23:00] 15 partidos (11 jugados) | San Diego Padres 64% | Los Angeles Dodgers 61% | San Francisco Giants 57%
+[2026-07-11 00:00] 16 partidos (0 jugados) | San Diego Padres 78% | Los Angeles Dodgers 70% | Milwaukee Brewers 64%
+[2026-07-11 01:00] 16 partidos (0 jugados) | Cincinnati Reds 71% | Chicago White Sox 63% | Milwaukee Brewers 63%
+[2026-07-11 02:00] 16 partidos (0 jugados) | Los Angeles Dodgers 68% | New York Mets 67% | Milwaukee Brewers 63%
+[2026-07-11 03:00] 16 partidos (0 jugados) | Cincinnati Reds 76% | Los Angeles Dodgers 68% | Milwaukee Brewers 63%
+[2026-07-11 22:00] 16 partidos (14 jugados) | Los Angeles Dodgers 63% | Toronto Blue Jays 57%
+[2026-07-11 23:00] 16 partidos (16 jugados) | 
+[2026-07-11 23:05] 16 partidos (16 jugados) | 
+[2026-07-11 23:11] 16 partidos (16 jugados) | 
+[2026-07-11 23:16] 16 partidos (16 jugados) | 

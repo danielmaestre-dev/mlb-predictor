@@ -304,7 +304,7 @@ def run_prediction():
     print('=' * 40)
 
     history = load_history()
-    history = resolve_predictions(history, 'baseball', 'mlb')
+    history = resolve_predictions(history, SPORT, LEAGUE)
     save_history(history)
 
     results = predict_league()
