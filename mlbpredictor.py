@@ -197,7 +197,7 @@ def predict_league():
 
             rest_diff = rh.get('rest_days', 3) - ra.get('rest_days', 3)
             rest_bonus = rest_diff * REST_FACTOR
-            home_extra = rh.get('home_wp_extra', 0) * 30 + rest_bonus
+            home_extra = rh.get('home_wp_extra', 0) * 15 + rest_bonus
 
             away_pitcher = g.get('away_pitcher', {})
             home_pitcher = g.get('home_pitcher', {})
