@@ -131,14 +131,16 @@ def write_log(results, history):
     en_vivo = [r for r in results if r.get('in_progress')]
     upcoming = [r for r in results if not r.get('completed') and not r.get('in_progress')]
 
+    top_pending = sorted((en_vivo + upcoming), key=lambda x: max(x['p_home'], x['p_away']), reverse=True)[:3]
+    picks_str = ' | '.join(
+        f'{r["home_name"] if r["p_home"] >= r["p_away"] else r["away_name"]} '
+        f'{r["p_home"] if r["p_home"] >= r["p_away"] else r["p_away"]:.0f}%'
+        for r in top_pending
+    )
     log_line = (
         f'[{datetime.now(PERU_TZ).strftime("%Y-%m-%d %H:%M")}] '
-        f'{len(results)} partidos ({len(completed)} jugados) | '
-        + ' | '.join(
-            f'{r["home_name"] if r["p_home"] >= r["p_away"] else r["away_name"]} '
-            f'{r["p_home"] if r["p_home"] >= r["p_away"] else r["p_away"]:.0f}%'
-            for r in sorted((en_vivo + upcoming), key=lambda x: max(x['p_home'], x['p_away']), reverse=True)[:3]
-        )
+        f'{len(results)} partidos ({len(completed)} jugados)'
+        + (f' | {picks_str}' if picks_str else '')
     )
     os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
     with open(LOG_FILE, 'a') as f:

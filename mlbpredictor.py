@@ -11,8 +11,8 @@ from api import (
     get_games, get_standings, fetch_json, load_park_factors, american_to_decimal
 )
 from model import (
-    compute_ratings, win_prob, clamp, ELO_BASE, ERA_TO_ELO, MAX_PITCHER_ADJ,
-    MLB_AVG_ERA, REST_FACTOR, PARK_WEIGHT, MAX_PARK_ADJ,
+    compute_ratings, compute_league_avg_era, win_prob, clamp, ELO_BASE, ERA_TO_ELO, MAX_PITCHER_ADJ,
+    REST_FACTOR, PARK_WEIGHT, MAX_PARK_ADJ,
     SPORT, LEAGUE, SEASON
 )
 from display import console, display_table, write_log
@@ -186,6 +186,7 @@ def predict_league():
 
         status('Calculando probabilidades')
         park_factors = load_park_factors()
+        league_avg_era = compute_league_avg_era(teams)
 
         results = []
         for g in games:
@@ -204,11 +205,11 @@ def predict_league():
             away_era = away_pitcher.get('era')
             home_era = home_pitcher.get('era')
             away_pitcher_adj = clamp(
-                (MLB_AVG_ERA - away_era) * ERA_TO_ELO if away_era is not None and away_era > 0 else 0,
+                (league_avg_era - away_era) * ERA_TO_ELO if away_era is not None and away_era > 0 else 0,
                 -MAX_PITCHER_ADJ, MAX_PITCHER_ADJ
             )
             home_pitcher_adj = clamp(
-                (MLB_AVG_ERA - home_era) * ERA_TO_ELO if home_era is not None and home_era > 0 else 0,
+                (league_avg_era - home_era) * ERA_TO_ELO if home_era is not None and home_era > 0 else 0,
                 -MAX_PITCHER_ADJ, MAX_PITCHER_ADJ
             )
 
