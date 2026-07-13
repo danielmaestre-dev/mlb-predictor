@@ -2210,8 +2210,8 @@
       "away_name": "Colorado Rockies",
       "predicted_winner": "COL",
       "predicted_prob": 67.43906363692184,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SF",
+      "resolved": true,
       "diff": 24.71135411670769,
       "p_home_mkt": 57.272290479785845,
       "p_away_mkt": 42.727709520214155,
@@ -2229,8 +2229,8 @@
       "away_name": "Arizona Diamondbacks",
       "predicted_winner": "LAD",
       "predicted_prob": 56.408260412327074,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ARI",
+      "resolved": true,
       "diff": -9.210070729489225,
       "p_home_mkt": 65.6183311418163,
       "p_away_mkt": 34.381668858183694,
@@ -2248,8 +2248,8 @@
       "away_name": "Toronto Blue Jays",
       "predicted_winner": "SD",
       "predicted_prob": 57.71306066038606,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": 10.926045092317167,
       "p_home_mkt": 46.787015568068895,
       "p_away_mkt": 53.2129844319311,
@@ -2260,8 +2260,8 @@
     }
   },
   "stats": {
-    "total": 134,
-    "correct": 73,
-    "accuracy": 0.5447761194029851
+    "total": 137,
+    "correct": 74,
+    "accuracy": 0.5401459854014599
   }
 }
