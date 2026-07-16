@@ -2257,6 +2257,25 @@
       "ev_away": -24.1519976924385,
       "ev": 17.73464374718756,
       "conf": "C"
+    },
+    "401816143": {
+      "date_predicted": "2026-07-16",
+      "game_date": "07-16 18:00",
+      "home_abbr": "PHI",
+      "away_abbr": "NYM",
+      "home_name": "Philadelphia Phillies",
+      "away_name": "New York Mets",
+      "predicted_winner": "NYM",
+      "predicted_prob": 62.44010857070386,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 16.678504735445635,
+      "p_home_mkt": 54.23839616474177,
+      "p_away_mkt": 45.76160383525823,
+      "ev_home": -33.768435723912916,
+      "ev_away": 30.499826912771066,
+      "ev": 30.499826912771066,
+      "conf": "D"
     }
   },
   "stats": {
