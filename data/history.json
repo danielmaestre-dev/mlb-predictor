@@ -2343,8 +2343,8 @@
       "away_name": "Tampa Bay Rays",
       "predicted_winner": "BOS",
       "predicted_prob": 50.43338121741808,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BOS",
+      "resolved": true,
       "diff": 0.10641286873044464,
       "p_home_mkt": 50.326968349463776,
       "p_away_mkt": 49.67303165053624,
@@ -2564,8 +2564,8 @@
     }
   },
   "stats": {
-    "total": 139,
-    "correct": 76,
-    "accuracy": 0.5467625899280576
+    "total": 140,
+    "correct": 77,
+    "accuracy": 0.55
   }
 }
