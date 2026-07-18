@@ -2571,8 +2571,8 @@
       "away_name": "Pittsburgh Pirates",
       "predicted_winner": "PIT",
       "predicted_prob": 51.355303765562915,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PIT",
+      "resolved": true,
       "diff": 4.56828819749402,
       "p_home_mkt": 53.2129844319311,
       "p_away_mkt": 46.787015568068895,
@@ -2590,8 +2590,8 @@
       "away_name": "Minnesota Twins",
       "predicted_winner": "CHC",
       "predicted_prob": 53.49772365512545,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHC",
+      "resolved": true,
       "diff": -2.8105993396423443,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -2628,8 +2628,8 @@
       "away_name": "Cincinnati Reds",
       "predicted_winner": "CIN",
       "predicted_prob": 54.81138218343799,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "COL",
+      "resolved": true,
       "diff": 4.3784067764411105,
       "p_home_mkt": 49.56702459300312,
       "p_away_mkt": 50.43297540699688,
@@ -2868,8 +2868,8 @@
     }
   },
   "stats": {
-    "total": 152,
-    "correct": 84,
-    "accuracy": 0.5526315789473685
+    "total": 155,
+    "correct": 86,
+    "accuracy": 0.5548387096774193
   }
 }
