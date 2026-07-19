@@ -2875,8 +2875,8 @@
       "away_name": "Chicago White Sox",
       "predicted_winner": "CHW",
       "predicted_prob": 55.758924501533045,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 4.77724910886289,
       "p_home_mkt": 49.018324607329845,
       "p_away_mkt": 50.981675392670155,
@@ -3172,8 +3172,8 @@
     }
   },
   "stats": {
-    "total": 167,
-    "correct": 92,
-    "accuracy": 0.5508982035928144
+    "total": 168,
+    "correct": 93,
+    "accuracy": 0.5535714285714286
   }
 }
