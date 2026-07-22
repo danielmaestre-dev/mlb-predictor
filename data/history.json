@@ -3483,8 +3483,8 @@
       "away_name": "Minnesota Twins",
       "predicted_winner": "CLE",
       "predicted_prob": 52.68400942585505,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CLE",
+      "resolved": true,
       "diff": -5.570507565861071,
       "p_home_mkt": 58.25451699171612,
       "p_away_mkt": 41.74548300828387,
@@ -3742,8 +3742,8 @@
     }
   },
   "stats": {
-    "total": 198,
-    "correct": 110,
-    "accuracy": 0.5555555555555556
+    "total": 199,
+    "correct": 111,
+    "accuracy": 0.5577889447236181
   }
 }
