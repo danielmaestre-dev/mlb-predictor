@@ -3749,8 +3749,8 @@
       "away_name": "Pittsburgh Pirates",
       "predicted_winner": "NYY",
       "predicted_prob": 51.631696770478165,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PIT",
+      "resolved": true,
       "diff": -8.185297480492544,
       "p_home_mkt": 59.81699425097071,
       "p_away_mkt": 40.18300574902929,
@@ -3768,8 +3768,8 @@
       "away_name": "Baltimore Orioles",
       "predicted_winner": "BOS",
       "predicted_prob": 60.11390796781235,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BOS",
+      "resolved": true,
       "diff": 3.80558497304456,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -3787,8 +3787,8 @@
       "away_name": "New York Mets",
       "predicted_winner": "NYM",
       "predicted_prob": 56.86990476407767,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIL",
+      "resolved": true,
       "diff": 14.03266905605902,
       "p_home_mkt": 57.16276429198135,
       "p_away_mkt": 42.837235708018646,
@@ -3806,8 +3806,8 @@
       "away_name": "San Francisco Giants",
       "predicted_winner": "KC",
       "predicted_prob": 50.151006580446044,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "KC",
+      "resolved": true,
       "diff": 2.324919623924302,
       "p_home_mkt": 47.82608695652174,
       "p_away_mkt": 52.17391304347826,
@@ -4065,8 +4065,8 @@
     }
   },
   "stats": {
-    "total": 211,
-    "correct": 116,
-    "accuracy": 0.5497630331753555
+    "total": 215,
+    "correct": 118,
+    "accuracy": 0.5488372093023256
   }
 }
