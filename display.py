@@ -13,8 +13,11 @@ console = Console()
 
 
 def display_table(results):
-    has_market = any(r.get('p_home_mkt') is not None for r in results)
-    has_result = any(r.get('completed') for r in results)
+    filtered = [r for r in results if abs(r['p_home'] - r['p_away']) > 4]
+    if not filtered:
+        filtered = results
+    has_market = any(r.get('p_home_mkt') is not None for r in filtered)
+    has_result = any(r.get('completed') for r in filtered)
 
     table = Table(title='[bold green]MLB \u2014 Predicciones[/]',
                   box=box.SIMPLE, border_style='green', title_justify='center',
@@ -35,7 +38,7 @@ def display_table(results):
     if has_result:
         table.add_column('Res', justify='center')
 
-    for idx, r in enumerate(results):
+    for idx, r in enumerate(filtered):
         away_label = r['away_name']
         if r['away_record']:
             away_label += f'\n[dim]({r["away_record"]})[/]'
@@ -104,12 +107,12 @@ def display_table(results):
         if has_result:
             row.append(res_str)
         table.add_row(*row)
-        if idx < len(results) - 1:
+        if idx < len(filtered) - 1:
             table.add_section()
 
     console.print(table)
 
-    no_final = [r for r in results if not r.get('completed')]
+    no_final = [r for r in filtered if not r.get('completed')]
     if no_final:
         sorted_preds = sorted(no_final, key=lambda r: max(r['p_home'], r['p_away']), reverse=True)
         top10 = sorted_preds[:10]
@@ -127,9 +130,12 @@ def display_table(results):
 
 
 def write_log(results, history):
-    completed = [r for r in results if r.get('completed')]
-    en_vivo = [r for r in results if r.get('in_progress')]
-    upcoming = [r for r in results if not r.get('completed') and not r.get('in_progress')]
+    filtered = [r for r in results if abs(r['p_home'] - r['p_away']) > 4]
+    if not filtered:
+        filtered = results
+    completed = [r for r in filtered if r.get('completed')]
+    en_vivo = [r for r in filtered if r.get('in_progress')]
+    upcoming = [r for r in filtered if not r.get('completed') and not r.get('in_progress')]
 
     top_pending = sorted((en_vivo + upcoming), key=lambda x: max(x['p_home'], x['p_away']), reverse=True)[:3]
     picks_str = ' | '.join(
@@ -162,9 +168,9 @@ def write_log(results, history):
     if hoy_total > 0:
         print(f'Hoy: {hoy_acertadas}/{hoy_total} ({hoy_acertadas/hoy_total*100:.0f}%) acertados de {hoy_total} jugados')
 
-    con_mdo = sum(1 for r in results if r.get('p_home_mkt'))
-    con_ev_pos = sum(1 for r in results if r.get('ev') is not None and r['ev'] > 0)
-    confs = [r.get('conf', '') for r in results if r.get('conf') not in ('', 'N/A')]
+    con_mdo = sum(1 for r in filtered if r.get('p_home_mkt'))
+    con_ev_pos = sum(1 for r in filtered if r.get('ev') is not None and r['ev'] > 0)
+    confs = [r.get('conf', '') for r in filtered if r.get('conf') not in ('', 'N/A')]
     avg_conf = ''
     if confs:
         vals = {'A': 4, 'B': 3, 'C': 2, 'D': 1}
@@ -183,4 +189,4 @@ def write_log(results, history):
         partes.append(f'{len(en_vivo)} en vivo')
     if upcoming:
         partes.append(f'{len(upcoming)} prox')
-    print(f'Resumen: {len(results)} partidos ({", ".join(partes)}), {con_mdo} con mercado, {con_ev_pos} EV+, confianza media{avg_conf_str}')
+    print(f'Resumen: {len(filtered)} partidos ({", ".join(partes)}), {con_mdo} con mercado, {con_ev_pos} EV+, confianza media{avg_conf_str}')

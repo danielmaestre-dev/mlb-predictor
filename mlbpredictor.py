@@ -16,7 +16,6 @@ from model import (
     SPORT, LEAGUE, SEASON
 )
 from display import console, display_table, write_log
-from report import generate as generate_report, open_report
 
 APP_DIR = os.path.dirname(os.path.realpath(__file__))
 DATA_DIR = f'{APP_DIR}/data'
@@ -39,7 +38,9 @@ def save_history(history):
 
 
 def recalc_stats(history):
-    resolved = [p for p in history.get('predictions', {}).values() if p.get('resolved')]
+    today_str = datetime.now(PERU_TZ).strftime('%Y-%m-%d')
+    resolved = [p for p in history.get('predictions', {}).values()
+                if p.get('resolved') and p.get('date_predicted') == today_str]
     correct = sum(1 for p in resolved if p.get('actual_winner') == p.get('predicted_winner'))
     total = len(resolved)
     history['stats'] = {
@@ -90,8 +91,17 @@ def resolve_predictions(history, sport, league):
 def add_predictions_to_history(history, results):
     if 'predictions' not in history:
         history['predictions'] = {}
+    today_str = datetime.now(PERU_TZ).strftime('%Y-%m-%d')
+    old_ids = [gid for gid, p in history['predictions'].items()
+               if p.get('date_predicted', '') != today_str]
+    for gid in old_ids:
+        del history['predictions'][gid]
     for r in results:
         gid = r['game_id']
+        p_home = r['p_home']
+        p_away = r['p_away']
+        if abs(p_home - p_away) <= 4:
+            continue
         if gid in history['predictions']:
             existing = history['predictions'][gid]
             if existing.get('diff') is None:
@@ -102,7 +112,7 @@ def add_predictions_to_history(history, results):
         winner_prob = r['p_home'] if r['p_home'] >= r['p_away'] else r['p_away']
         actual = r.get('actual_winner')
         history['predictions'][gid] = {
-            'date_predicted': datetime.now(PERU_TZ).strftime('%Y-%m-%d'),
+            'date_predicted': today_str,
             'game_date': r['inicio'],
             'home_abbr': r['home_abbr'],
             'away_abbr': r['away_abbr'],
@@ -204,6 +214,10 @@ def predict_league():
             home_pitcher = g.get('home_pitcher', {})
             away_era = away_pitcher.get('era')
             home_era = home_pitcher.get('era')
+            away_wins = away_pitcher.get('wins')
+            home_wins = home_pitcher.get('wins')
+            away_ip = away_pitcher.get('innings_pitched')
+            home_ip = home_pitcher.get('innings_pitched')
             away_pitcher_adj = clamp(
                 (league_avg_era - away_era) * ERA_TO_ELO if away_era is not None and away_era > 0 else 0,
                 -MAX_PITCHER_ADJ, MAX_PITCHER_ADJ
@@ -212,6 +226,14 @@ def predict_league():
                 (league_avg_era - home_era) * ERA_TO_ELO if home_era is not None and home_era > 0 else 0,
                 -MAX_PITCHER_ADJ, MAX_PITCHER_ADJ
             )
+            if away_wins is not None and away_wins > 0 and away_ip is not None and away_ip > 0:
+                away_quality = away_wins / max(away_ip / 6, 1)
+                if away_quality > 0.6:
+                    away_pitcher_adj += 5
+            if home_wins is not None and home_wins > 0 and home_ip is not None and home_ip > 0:
+                home_quality = home_wins / max(home_ip / 6, 1)
+                if home_quality > 0.6:
+                    home_pitcher_adj += 5
 
             away_bullpen = ra.get('bullpen_adj', 0)
             home_bullpen = rh.get('bullpen_adj', 0)
@@ -313,7 +335,6 @@ def run_prediction():
         history = add_predictions_to_history(history, results)
         save_history(history)
         write_log(results, history)
-        make_html_report(results, history)
 
     print()
     print('Datos: ESPN API | Cache: requests-cache (1h)')
@@ -326,7 +347,9 @@ def show_stats():
         'python3', '-c',
         '''
 import json, os, sys
-from collections import OrderedDict
+from datetime import datetime, timedelta, timezone
+PERU_TZ = timezone(timedelta(hours=-5))
+today_str = datetime.now(PERU_TZ).strftime("%Y-%m-%d")
 h = json.load(open(sys.argv[1]))
 s = h["stats"]
 preds = list(h.get("predictions", {}).values())
@@ -337,27 +360,18 @@ print(f"Resueltas: {len(resolved)}")
 print(f"Pendientes: {len(unresolved)}")
 print()
 if resolved:
-    print(f"Precision global: {s['correct']}/{s['total']} ({s['accuracy']*100:.1f}%)")
+    print(f"Precision: {s['correct']}/{s['total']} ({s['accuracy']*100:.1f}%)")
     home_ok = sum(1 for p in resolved if p.get("actual_winner") == p.get("predicted_winner") and p.get("actual_winner") == p.get("home_abbr"))
     away_ok = sum(1 for p in resolved if p.get("actual_winner") == p.get("predicted_winner") and p.get("actual_winner") == p.get("away_abbr"))
     print(f"  Local: {home_ok} | Visita: {away_ok}")
     print()
-    # group by date
-    by_date = OrderedDict()
-    for p in sorted(resolved, key=lambda x: x.get("game_date", "")):
-        d = p.get("game_date", "??-??")[:5]
-        by_date.setdefault(d, []).append(p)
-    for date, games in by_date.items():
-        date_ok = sum(1 for g in games if g.get("actual_winner") == g.get("predicted_winner"))
-        date_total = len(games)
-        date_pct = date_ok / date_total * 100
-        date_home = sum(1 for g in games if g.get("actual_winner") == g.get("predicted_winner") == g.get("home_abbr"))
-        date_away = date_ok - date_home
-        print(f'=== {date} ({date_ok}/{date_total} - {date_pct:.0f}%, L:{date_home} V:{date_away}) ===')
-        for p in games:
-            w = chr(10003) if p["actual_winner"] == p["predicted_winner"] else chr(10007)
-            print(f'  {p["game_date"]} {w} {p["away_name"]:22s} @ {p["home_name"]:22s} -> {p["predicted_winner"]} ({p["predicted_prob"]:.0f}%), real: {p["actual_winner"]}')
-        print()
+    for p in resolved:
+        w = chr(10003) if p["actual_winner"] == p["predicted_winner"] else chr(10007)
+        prob = p["predicted_prob"]
+        diff = abs(prob - (100 - prob))
+        marker = " *" if diff <= 4 else ""
+        print(f'  {w} {p["away_name"]:22s} @ {p["home_name"]:22s} -> {p["predicted_winner"]} ({prob:.0f}%), real: {p["actual_winner"]}{marker}')
+    print()
 else:
     print("Aun sin partidos resueltos. Ejecuta la app manana.")
     if unresolved:
@@ -395,66 +409,6 @@ def install_timer():
     show_status()
 
 
-def make_html_report(results, history):
-    if not results:
-        return
-    generate_report(results, history)
-    open_report()
-
-
-def show_report():
-    from report import generate as gen, open_report as open_rep
-    try:
-        history = load_history()
-        preds = history.get('predictions', {})
-        if not preds:
-            print('No hay predicciones para generar reporte.')
-            return
-        results = []
-        for p in preds.values():
-            pw = p.get('predicted_winner')
-            p_home = p.get('predicted_prob', 50)
-            if pw and pw != p.get('home_abbr'):
-                p_home = 100 - p_home
-            results.append({
-                'inicio': p.get('game_date', ''),
-                'away_name': p.get('away_name', ''),
-                'home_name': p.get('home_name', ''),
-                'away_abbr': p.get('away_abbr', ''),
-                'home_abbr': p.get('home_abbr', ''),
-                'away_record': '',
-                'home_record': '',
-                'p_away': 100 - p_home,
-                'p_home': p_home,
-                'p_away_mkt': p.get('p_away_mkt'),
-                'p_home_mkt': p.get('p_home_mkt'),
-                'diff': p.get('diff'),
-                'away_pitcher_name': '',
-                'home_pitcher_name': '',
-                'away_pitcher_era': None,
-                'home_pitcher_era': None,
-                'ev_home': p.get('ev_home'),
-                'ev_away': p.get('ev_away'),
-                'ev': p.get('ev'),
-                'conf': p.get('conf', 'N/A'),
-                'pick_team': p.get('predicted_winner', ''),
-                'pick_prob': p.get('predicted_prob', 50),
-                'venue': '',
-                'completed': p.get('resolved', False),
-                'in_progress': False,
-                'home_score': None,
-                'away_score': None,
-                'actual_winner': p.get('actual_winner'),
-                'status_desc': '',
-                'pick_result': (p.get('actual_winner') == p.get('predicted_winner'))
-                               if p.get('resolved') and p.get('actual_winner') else None,
-            })
-        gen(results, history)
-        open_rep()
-    except Exception as e:
-        print(f'Error generando reporte: {e}')
-
-
 def main():
     args = [a for a in sys.argv[1:] if a not in ('--simple',)]
     if args:
@@ -471,11 +425,8 @@ def main():
         elif cmd in ('install', '--install'):
             install_timer()
             return
-        elif cmd in ('report', '--report'):
-            show_report()
-            return
         else:
-            print(f'Uso: {sys.argv[0]} [stats|status|logs|install|report]')
+            print(f'Uso: {sys.argv[0]} [stats|status|logs|install]')
             sys.exit(1)
 
     run_prediction()

@@ -37,15 +37,40 @@ def extract_pitcher(comp):
     for p in probables:
         athlete = p.get('athlete', {})
         era = None
+        wins = None
+        losses = None
+        innings_pitched = None
+        whip = None
         stats = p.get('statistics', [])
         if isinstance(stats, list):
             for s in stats:
-                if isinstance(s, dict) and s.get('name') == 'ERA':
-                    try:
-                        era = float(s.get('displayValue', '0'))
-                    except ValueError:
-                        era = None
-        return {'name': athlete.get('displayName', ''), 'era': era}
+                if not isinstance(s, dict):
+                    continue
+                name = s.get('name', '')
+                val = s.get('displayValue', '')
+                if name == 'ERA':
+                    try: era = float(val)
+                    except ValueError: pass
+                elif name == 'wins':
+                    try: wins = int(val)
+                    except ValueError: pass
+                elif name == 'losses':
+                    try: losses = int(val)
+                    except ValueError: pass
+                elif name in ('inningsPitched', 'ip'):
+                    try: innings_pitched = float(val)
+                    except ValueError: pass
+                elif name == 'WHIP':
+                    try: whip = float(val)
+                    except ValueError: pass
+        return {
+            'name': athlete.get('displayName', ''),
+            'era': era,
+            'wins': wins,
+            'losses': losses,
+            'innings_pitched': innings_pitched,
+            'whip': whip,
+        }
     return {}
 
 

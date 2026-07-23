@@ -8,9 +8,9 @@ APP_DIR = os.path.dirname(os.path.realpath(__file__))
 DATA_DIR = f'{APP_DIR}/data'
 
 ELO_BASE = 1500
-HOME_ADVANTAGE = 0
+HOME_ADVANTAGE = 35
 K_BASE = 20
-ELO_WEIGHT = 0.40
+ELO_WEIGHT = 0.30
 PYTH_WEIGHT = 0.40
 RECENT_WEIGHT = 0.20
 PYTH_SCALE = 600
@@ -23,6 +23,7 @@ PARK_WEIGHT = 25
 MAX_PARK_ADJ = 15
 BULLPEN_WEIGHT = 5
 MAX_BULLPEN_ADJ = 15
+RUN_DIFF_WEIGHT = 0.10
 
 SPORT = 'baseball'
 LEAGUE = 'mlb'
@@ -107,8 +108,12 @@ def compute_team_stats(abbr, td, completed_games, elo, league_avg_era):
     rating_elo = elo[abbr]
     rating_pyth = ELO_BASE + (pyth_wp - 0.5) * PYTH_SCALE
     rating_recent = ELO_BASE + (recent_wp - 0.5) * RECENT_SCALE
+
+    run_diff_total = pf - pa
+    rating_run_diff = ELO_BASE + clamp(run_diff_total / max(total, 1) * 80, -200, 200)
+
     rating = (rating_elo * ELO_WEIGHT + rating_pyth * PYTH_WEIGHT
-              + rating_recent * RECENT_WEIGHT)
+              + rating_recent * RECENT_WEIGHT + rating_run_diff * RUN_DIFF_WEIGHT)
 
     home_wp_extra = 0
     hw = float(s.get('homeWins', 0) or 0)

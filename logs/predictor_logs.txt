@@ -140,3 +140,75 @@
 [2026-07-11 23:11] 16 partidos (16 jugados) | 
 [2026-07-11 23:16] 16 partidos (16 jugados) | 
 [2026-07-11 23:37] 16 partidos (16 jugados)
+[2026-07-12 00:00] 15 partidos (0 jugados) | San Diego Padres 72% | Miami Marlins 59% | Milwaukee Brewers 58%
+[2026-07-12 22:00] 15 partidos (15 jugados)
+[2026-07-12 23:01] 15 partidos (15 jugados)
+[2026-07-16 00:00] 1 partidos (0 jugados) | Philadelphia Phillies 55%
+[2026-07-16 01:00] 1 partidos (0 jugados) | New York Mets 64%
+[2026-07-16 02:01] 1 partidos (0 jugados) | New York Mets 62%
+[2026-07-16 03:00] 1 partidos (0 jugados) | New York Mets 62%
+[2026-07-16 04:00] 1 partidos (0 jugados) | New York Mets 61%
+[2026-07-16 05:00] 1 partidos (0 jugados) | New York Mets 60%
+[2026-07-16 19:01] 1 partidos (0 jugados) | New York Mets 62%
+[2026-07-16 20:00] 1 partidos (1 jugados)
+[2026-07-16 21:01] 1 partidos (1 jugados)
+[2026-07-16 22:00] 1 partidos (1 jugados)
+[2026-07-17 00:01] 15 partidos (0 jugados) | Washington Nationals 71% | Colorado Rockies 65% | Seattle Mariners 58%
+[2026-07-17 01:00] 15 partidos (0 jugados) | Washington Nationals 69% | San Diego Padres 64% | Colorado Rockies 64%
+[2026-07-17 02:01] 15 partidos (0 jugados) | Washington Nationals 71% | Colorado Rockies 65% | Seattle Mariners 60%
+[2026-07-17 21:01] 15 partidos (4 jugados) | Washington Nationals 71% | San Francisco Giants 63% | Atlanta Braves 57%
+[2026-07-17 22:00] 15 partidos (4 jugados) | Washington Nationals 68% | San Diego Padres 65% | Seattle Mariners 61%
+[2026-07-17 23:00] 15 partidos (11 jugados) | Washington Nationals 68% | Seattle Mariners 60% | Detroit Tigers 56%
+[2026-07-18 00:00] 16 partidos (0 jugados) | Atlanta Braves 64% | Chicago White Sox 61% | Boston Red Sox 61%
+[2026-07-18 01:00] 16 partidos (0 jugados) | Atlanta Braves 63% | Chicago White Sox 63% | Washington Nationals 62%
+[2026-07-18 21:00] 16 partidos (12 jugados) | Washington Nationals 73% | Pittsburgh Pirates 57% | Detroit Tigers 56%
+[2026-07-18 23:01] 16 partidos (14 jugados) | Washington Nationals 65% | Detroit Tigers 60%
+[2026-07-18 23:14] 16 partidos (14 jugados) | Washington Nationals 72% | Detroit Tigers 60%
+[2026-07-19 00:01] 16 partidos (0 jugados) | Washington Nationals 80% | San Diego Padres 77% | Detroit Tigers 61%
+[2026-07-19 01:01] 16 partidos (0 jugados) | Washington Nationals 78% | San Diego Padres 62% | Detroit Tigers 61%
+[2026-07-19 02:01] 16 partidos (0 jugados) | Washington Nationals 72% | Detroit Tigers 62% | San Diego Padres 62%
+[2026-07-19 21:00] 16 partidos (15 jugados) | Los Angeles Dodgers 62%
+[2026-07-19 22:00] 16 partidos (15 jugados) | Los Angeles Dodgers 62%
+[2026-07-19 23:00] 16 partidos (16 jugados)
+[2026-07-20 00:00] 15 partidos (0 jugados) | Milwaukee Brewers 70% | Arizona Diamondbacks 66% | Boston Red Sox 60%
+[2026-07-20 01:00] 15 partidos (0 jugados) | Washington Nationals 72% | Arizona Diamondbacks 67% | Boston Red Sox 60%
+[2026-07-20 02:00] 15 partidos (0 jugados) | Milwaukee Brewers 70% | Arizona Diamondbacks 67% | Boston Red Sox 60%
+[2026-07-20 03:00] 15 partidos (0 jugados) | Washington Nationals 72% | Arizona Diamondbacks 67% | Miami Marlins 62%
+[2026-07-20 04:00] 15 partidos (0 jugados) | Washington Nationals 72% | Arizona Diamondbacks 64% | Miami Marlins 62%
+[2026-07-20 08:01] 15 partidos (0 jugados) | Washington Nationals 73% | Arizona Diamondbacks 67% | Boston Red Sox 61%
+[2026-07-20 09:00] 15 partidos (0 jugados) | Washington Nationals 73% | Arizona Diamondbacks 67% | Boston Red Sox 60%
+[2026-07-20 19:42] 15 partidos (0 jugados) | Arizona Diamondbacks 71% | Milwaukee Brewers 70% | Boston Red Sox 60%
+[2026-07-20 20:00] 15 partidos (0 jugados) | Milwaukee Brewers 70% | Arizona Diamondbacks 67% | Boston Red Sox 61%
+[2026-07-20 21:01] 15 partidos (5 jugados) | Washington Nationals 73% | Arizona Diamondbacks 67% | Miami Marlins 59%
+[2026-07-20 22:00] 15 partidos (5 jugados) | San Francisco Giants 73% | Washington Nationals 72% | Arizona Diamondbacks 67%
+[2026-07-20 23:01] 15 partidos (11 jugados) | Arizona Diamondbacks 67% | Seattle Mariners 56% | Chicago Cubs 55%
+[2026-07-21 00:01] 15 partidos (0 jugados) | Arizona Diamondbacks 70% | Miami Marlins 67% | Washington Nationals 61%
+[2026-07-21 01:01] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 67% | Colorado Rockies 62%
+[2026-07-21 02:00] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 67% | Washington Nationals 61%
+[2026-07-21 03:01] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 66% | Washington Nationals 61%
+[2026-07-21 04:01] 15 partidos (0 jugados) | New York Mets 70% | Arizona Diamondbacks 69% | Miami Marlins 66%
+[2026-07-21 09:14] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 66% | Washington Nationals 61%
+[2026-07-21 10:00] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 66% | Washington Nationals 61%
+[2026-07-21 11:00] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 66% | Washington Nationals 61%
+[2026-07-21 12:00] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 68% | Washington Nationals 61%
+[2026-07-21 13:01] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | Miami Marlins 66% | Colorado Rockies 62%
+[2026-07-21 14:00] 15 partidos (1 jugados) | Arizona Diamondbacks 69% | Miami Marlins 63% | Washington Nationals 59%
+[2026-07-21 15:01] 15 partidos (1 jugados) | Arizona Diamondbacks 69% | Miami Marlins 65% | Boston Red Sox 60%
+[2026-07-21 16:00] 15 partidos (1 jugados) | Arizona Diamondbacks 69% | Miami Marlins 66% | New York Mets 59%
+[2026-07-21 17:01] 15 partidos (2 jugados) | Arizona Diamondbacks 69% | Miami Marlins 67% | Washington Nationals 59%
+[2026-07-21 18:00] 15 partidos (2 jugados) | Arizona Diamondbacks 69% | Miami Marlins 67% | Washington Nationals 60%
+[2026-07-21 19:01] 15 partidos (2 jugados) | Miami Marlins 70% | Arizona Diamondbacks 69% | Washington Nationals 59%
+[2026-07-21 20:00] 15 partidos (2 jugados) | Arizona Diamondbacks 69% | Miami Marlins 66% | Washington Nationals 59%
+[2026-07-21 21:01] 15 partidos (3 jugados) | Arizona Diamondbacks 69% | Miami Marlins 65% | Washington Nationals 58%
+[2026-07-21 22:00] 15 partidos (3 jugados) | Arizona Diamondbacks 70% | Miami Marlins 69% | Washington Nationals 59%
+[2026-07-21 23:01] 15 partidos (12 jugados) | Arizona Diamondbacks 69% | Cincinnati Reds 51% | St. Louis Cardinals 51%
+[2026-07-22 00:00] 17 partidos (0 jugados) | Boston Red Sox 62% | Arizona Diamondbacks 61% | Seattle Mariners 59%
+[2026-07-22 01:01] 17 partidos (0 jugados) | New York Mets 68% | St. Louis Cardinals 67% | Arizona Diamondbacks 60%
+[2026-07-22 21:01] 17 partidos (13 jugados) | Miami Marlins 57% | San Diego Padres 57% | Chicago Cubs 54%
+[2026-07-22 22:00] 17 partidos (17 jugados)
+[2026-07-22 22:23] 17 partidos (17 jugados)
+[2026-07-22 22:39] 17 partidos (13 jugados)
+[2026-07-22 22:40] 17 partidos (13 jugados)
+[2026-07-22 22:40] 17 partidos (13 jugados)
+[2026-07-22 22:42] 17 partidos (13 jugados)
+[2026-07-22 22:43] 17 partidos (12 jugados)
