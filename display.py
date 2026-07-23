@@ -130,7 +130,7 @@ def display_table(results):
 
 
 def write_log(results, history):
-    filtered = [r for r in results if abs(r['p_home'] - r['p_away']) > 4]
+    filtered = [r for r in results if abs(r['p_home'] - r['p_away']) > 2]
     if not filtered:
         filtered = results
     completed = [r for r in filtered if r.get('completed')]
