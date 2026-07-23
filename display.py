@@ -13,7 +13,7 @@ console = Console()
 
 
 def display_table(results):
-    filtered = [r for r in results if abs(r['p_home'] - r['p_away']) > 4]
+    filtered = [r for r in results if abs(r['p_home'] - r['p_away']) > 2]
     if not filtered:
         filtered = results
     has_market = any(r.get('p_home_mkt') is not None for r in filtered)

@@ -212,3 +212,7 @@
 [2026-07-22 22:40] 17 partidos (13 jugados)
 [2026-07-22 22:42] 17 partidos (13 jugados)
 [2026-07-22 22:43] 17 partidos (12 jugados)
+[2026-07-23 18:00] 5 partidos (2 jugados) | St. Louis Cardinals 64% | Detroit Tigers 63%
+[2026-07-23 18:01] 5 partidos (2 jugados) | Detroit Tigers 63%
+[2026-07-23 18:06] 5 partidos (2 jugados) | St. Louis Cardinals 68% | Detroit Tigers 63%
+[2026-07-23 18:12] 5 partidos (2 jugados) | St. Louis Cardinals 68% | Detroit Tigers 63%

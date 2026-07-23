@@ -100,7 +100,7 @@ def add_predictions_to_history(history, results):
         gid = r['game_id']
         p_home = r['p_home']
         p_away = r['p_away']
-        if abs(p_home - p_away) <= 4:
+        if abs(p_home - p_away) <= 2:
             continue
         if gid in history['predictions']:
             existing = history['predictions'][gid]
