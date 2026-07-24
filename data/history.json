@@ -47,8 +47,8 @@
       "away_name": "Arizona Diamondbacks",
       "predicted_winner": "STL",
       "predicted_prob": 63.74891733005271,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ARI",
+      "resolved": true,
       "diff": null,
       "p_home_mkt": null,
       "p_away_mkt": null,
@@ -66,8 +66,8 @@
       "away_name": "Kansas City Royals",
       "predicted_winner": "DET",
       "predicted_prob": 62.86521140899599,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "DET",
+      "resolved": true,
       "diff": null,
       "p_home_mkt": null,
       "p_away_mkt": null,
@@ -97,8 +97,8 @@
     }
   },
   "stats": {
-    "total": 3,
-    "correct": 2,
-    "accuracy": 0.6666666666666666
+    "total": 5,
+    "correct": 3,
+    "accuracy": 0.6
   }
 }
