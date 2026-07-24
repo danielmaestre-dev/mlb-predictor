@@ -246,6 +246,25 @@
       "ev_away": -6.522406073184895,
       "ev": -2.9451891891545845,
       "conf": "A"
+    },
+    "401816248": {
+      "date_predicted": "2026-07-24",
+      "game_date": "07-24 19:05",
+      "home_abbr": "TEX",
+      "away_abbr": "SEA",
+      "home_name": "Texas Rangers",
+      "away_name": "Seattle Mariners",
+      "predicted_winner": "SEA",
+      "predicted_prob": 51.52552147207526,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": -0.9593892766084409,
+      "p_home_mkt": 47.5150892513163,
+      "p_away_mkt": 52.4849107486837,
+      "ev_home": -2.566298158871294,
+      "ev_away": -6.240444534420419,
+      "ev": -6.240444534420419,
+      "conf": "A"
     }
   },
   "stats": {
