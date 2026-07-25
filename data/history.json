@@ -265,6 +265,25 @@
       "ev_away": -11.134531305928807,
       "ev": 2.5572256798001014,
       "conf": "B"
+    },
+    "401816256": {
+      "date_predicted": "2026-07-25",
+      "game_date": "07-25 17:05",
+      "home_abbr": "PHI",
+      "away_abbr": "NYY",
+      "home_name": "Philadelphia Phillies",
+      "away_name": "New York Yankees",
+      "predicted_winner": "NYY",
+      "predicted_prob": 51.86279272826934,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 0.12638015664232682,
+      "p_home_mkt": 48.26358742837298,
+      "p_away_mkt": 51.736412571627014,
+      "ev_home": -4.669452265788299,
+      "ev_away": -4.185688010485467,
+      "ev": -4.185688010485467,
+      "conf": "A"
     }
   },
   "stats": {
