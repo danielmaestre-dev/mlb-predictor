@@ -9,8 +9,8 @@
       "away_name": "Kansas City Royals",
       "predicted_winner": "DET",
       "predicted_prob": 66.89318227229099,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "KC",
+      "resolved": true,
       "diff": 4.69486880907494,
       "p_home_mkt": 62.198313463216046,
       "p_away_mkt": 37.80168653678395,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 0,
+    "total": 1,
     "correct": 0,
-    "accuracy": 0
+    "accuracy": 0.0
   }
 }
