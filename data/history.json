@@ -256,8 +256,8 @@
       "away_name": "Los Angeles Angels",
       "predicted_winner": "SF",
       "predicted_prob": 59.50262268368427,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "LAA",
+      "resolved": true,
       "diff": 7.766210112057259,
       "p_home_mkt": 51.736412571627014,
       "p_away_mkt": 48.26358742837298,
@@ -268,8 +268,8 @@
     }
   },
   "stats": {
-    "total": 13,
+    "total": 14,
     "correct": 8,
-    "accuracy": 0.6153846153846154
+    "accuracy": 0.5714285714285714
   }
 }
