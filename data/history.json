@@ -9,8 +9,8 @@
       "away_name": "Seattle Mariners",
       "predicted_winner": "TEX",
       "predicted_prob": 53.16585271409959,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TEX",
+      "resolved": true,
       "diff": 9.726136402042854,
       "p_home_mkt": 43.43971631205674,
       "p_away_mkt": 56.560283687943254,
@@ -230,8 +230,8 @@
     }
   },
   "stats": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": 0
+    "total": 1,
+    "correct": 1,
+    "accuracy": 1.0
   }
 }
