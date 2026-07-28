@@ -284,6 +284,25 @@
       "ev_away": -14.83030332428924,
       "ev": 8.27418217621949,
       "conf": "B"
+    },
+    "401816304": {
+      "date_predicted": "2026-07-28",
+      "game_date": "07-28 20:38",
+      "home_abbr": "LAA",
+      "away_abbr": "HOU",
+      "home_name": "Los Angeles Angels",
+      "away_name": "Houston Astros",
+      "predicted_winner": "HOU",
+      "predicted_prob": 53.17894148724435,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 2.74596608024747,
+      "p_home_mkt": 49.56702459300312,
+      "p_away_mkt": 50.43297540699688,
+      "ev_home": -9.826109530989113,
+      "ev_away": 0.6601392437125098,
+      "ev": 0.6601392437125098,
+      "conf": "A"
     }
   },
   "stats": {
