@@ -47,8 +47,8 @@
       "away_name": "Baltimore Orioles",
       "predicted_winner": "DET",
       "predicted_prob": 62.42561560025477,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "DET",
+      "resolved": true,
       "diff": 6.046897064785668,
       "p_home_mkt": 56.378718535469105,
       "p_away_mkt": 43.621281464530895,
@@ -66,8 +66,8 @@
       "away_name": "Philadelphia Phillies",
       "predicted_winner": "MIA",
       "predicted_prob": 58.03200808050718,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIA",
+      "resolved": true,
       "diff": 7.382404338789627,
       "p_home_mkt": 50.649603741717556,
       "p_away_mkt": 49.350396258282444,
@@ -85,8 +85,8 @@
       "away_name": "Texas Rangers",
       "predicted_winner": "TB",
       "predicted_prob": 60.848120218902025,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TEX",
+      "resolved": true,
       "diff": 0.021909392691213725,
       "p_home_mkt": 60.82621082621081,
       "p_away_mkt": 39.17378917378917,
@@ -256,8 +256,8 @@
       "away_name": "Cleveland Guardians",
       "predicted_winner": "CIN",
       "predicted_prob": 51.435921287781795,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CIN",
+      "resolved": true,
       "diff": 5.674317452523567,
       "p_home_mkt": 45.76160383525823,
       "p_away_mkt": 54.23839616474177,
@@ -306,8 +306,8 @@
     }
   },
   "stats": {
-    "total": 1,
-    "correct": 0,
-    "accuracy": 0.0
+    "total": 5,
+    "correct": 3,
+    "accuracy": 0.6
   }
 }
