@@ -47,8 +47,8 @@
       "away_name": "Toronto Blue Jays",
       "predicted_winner": "WSH",
       "predicted_prob": 60.31229149701507,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TOR",
+      "resolved": true,
       "diff": 13.012414519116625,
       "p_home_mkt": 47.29987697789844,
       "p_away_mkt": 52.700123022101565,
@@ -66,8 +66,8 @@
       "away_name": "Atlanta Braves",
       "predicted_winner": "NYM",
       "predicted_prob": 54.27224285551221,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "NYM",
+      "resolved": true,
       "diff": 5.3556664741471,
       "p_home_mkt": 48.91657638136511,
       "p_away_mkt": 51.08342361863488,
@@ -85,8 +85,8 @@
       "away_name": "Baltimore Orioles",
       "predicted_winner": "DET",
       "predicted_prob": 62.472843994853264,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BAL",
+      "resolved": true,
       "diff": 1.6466331686424525,
       "p_home_mkt": 60.82621082621081,
       "p_away_mkt": 39.17378917378917,
@@ -306,8 +306,8 @@
     }
   },
   "stats": {
-    "total": 2,
-    "correct": 1,
-    "accuracy": 0.5
+    "total": 5,
+    "correct": 2,
+    "accuracy": 0.4
   }
 }
