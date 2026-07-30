@@ -28,8 +28,8 @@
       "away_name": "Kansas City Royals",
       "predicted_winner": "MIN",
       "predicted_prob": 57.12679275527712,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIN",
+      "resolved": true,
       "diff": 0.8184697605093305,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -47,8 +47,8 @@
       "away_name": "New York Yankees",
       "predicted_winner": "CHW",
       "predicted_prob": 52.25136716194088,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 1.3849661915717917,
       "p_home_mkt": 50.866400970369085,
       "p_away_mkt": 49.133599029630915,
@@ -66,8 +66,8 @@
       "away_name": "Chicago Cubs",
       "predicted_winner": "STL",
       "predicted_prob": 60.95673498495579,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHC",
+      "resolved": true,
       "diff": 8.782821941477529,
       "p_home_mkt": 52.17391304347826,
       "p_away_mkt": 47.82608695652174,
@@ -192,8 +192,8 @@
     }
   },
   "stats": {
-    "total": 1,
-    "correct": 1,
-    "accuracy": 1.0
+    "total": 4,
+    "correct": 3,
+    "accuracy": 0.75
   }
 }
