@@ -104,8 +104,8 @@
       "away_name": "Milwaukee Brewers",
       "predicted_winner": "MIL",
       "predicted_prob": 58.9415212198167,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SF",
+      "resolved": true,
       "diff": 5.728536787885602,
       "p_home_mkt": 46.787015568068895,
       "p_away_mkt": 53.2129844319311,
@@ -123,8 +123,8 @@
       "away_name": "Colorado Rockies",
       "predicted_winner": "SD",
       "predicted_prob": 59.125642118673696,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": 2.8173191239059037,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -142,8 +142,8 @@
       "away_name": "Texas Rangers",
       "predicted_winner": "TB",
       "predicted_prob": 60.820065050045855,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": 4.511742055278063,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -180,8 +180,8 @@
       "away_name": "Atlanta Braves",
       "predicted_winner": "NYM",
       "predicted_prob": 52.96242102936118,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ATL",
+      "resolved": true,
       "diff": 11.383388510351317,
       "p_home_mkt": 41.579032519009864,
       "p_away_mkt": 58.420967480990136,
@@ -306,8 +306,8 @@
     }
   },
   "stats": {
-    "total": 5,
-    "correct": 2,
-    "accuracy": 0.4
+    "total": 9,
+    "correct": 4,
+    "accuracy": 0.4444444444444444
   }
 }
