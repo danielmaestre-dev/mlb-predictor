@@ -9,8 +9,8 @@
       "away_name": "Texas Rangers",
       "predicted_winner": "TB",
       "predicted_prob": 66.53918745286482,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": 10.160468917395718,
       "p_home_mkt": 56.378718535469105,
       "p_away_mkt": 43.621281464530895,
@@ -192,8 +192,8 @@
     }
   },
   "stats": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": 0
+    "total": 1,
+    "correct": 1,
+    "accuracy": 1.0
   }
 }
