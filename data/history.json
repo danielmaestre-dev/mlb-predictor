@@ -30,13 +30,13 @@
       "predicted_prob": 61.954826856205514,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 7.249476101099994,
+      "p_home_mkt": 53.3347098905637,
+      "p_away_mkt": 46.665290109436306,
+      "ev_home": 8.666873286634868,
+      "ev_away": -19.19758128291058,
+      "ev": 8.666873286634868,
+      "conf": "C"
     },
     "401816337": {
       "date_predicted": "2026-07-31",
@@ -239,13 +239,13 @@
       "predicted_prob": 59.88786544350988,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 8.369493138755153,
+      "p_home_mkt": 51.51837230488916,
+      "p_away_mkt": 48.481627695110845,
+      "ev_home": 11.074075224536895,
+      "ev_away": -20.944045486017437,
+      "ev": 11.074075224536895,
+      "conf": "C"
     },
     "401816345": {
       "date_predicted": "2026-07-31",
@@ -265,6 +265,25 @@
       "ev_away": 5.453921153320596,
       "ev": -10.238179093711963,
       "conf": "B"
+    },
+    "401816336": {
+      "date_predicted": "2026-07-31",
+      "game_date": "07-31 17:10",
+      "home_abbr": "CIN",
+      "away_abbr": "PIT",
+      "home_name": "Cincinnati Reds",
+      "away_name": "Pittsburgh Pirates",
+      "predicted_winner": "PIT",
+      "predicted_prob": 53.282667365019414,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": -1.629074768518585,
+      "p_home_mkt": 45.08825786646201,
+      "p_away_mkt": 54.911742133538,
+      "ev_home": -0.9592548138411594,
+      "ev_away": -7.248690142373626,
+      "ev": -7.248690142373626,
+      "conf": "A"
     }
   },
   "stats": {
