@@ -9,8 +9,8 @@
       "away_name": "New York Yankees",
       "predicted_winner": "CHC",
       "predicted_prob": 58.14354389403653,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "NYY",
+      "resolved": true,
       "diff": -0.2774235869536028,
       "p_home_mkt": 58.420967480990136,
       "p_away_mkt": 41.579032519009864,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 0,
+    "total": 1,
     "correct": 0,
-    "accuracy": 0
+    "accuracy": 0.0
   }
 }
