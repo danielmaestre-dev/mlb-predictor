@@ -246,6 +246,25 @@
       "ev_away": 9.418502384852312,
       "ev": 9.418502384852312,
       "conf": "C"
+    },
+    "401816355": {
+      "date_predicted": "2026-08-01",
+      "game_date": "08-01 18:10",
+      "home_abbr": "HOU",
+      "away_abbr": "TEX",
+      "home_name": "Houston Astros",
+      "away_name": "Texas Rangers",
+      "predicted_winner": "HOU",
+      "predicted_prob": 52.174165758198164,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 6.412561922939936,
+      "p_home_mkt": 45.76160383525823,
+      "p_away_mkt": 54.23839616474177,
+      "ev_home": 9.044006434634166,
+      "ev_away": -15.665895344608982,
+      "ev": 9.044006434634166,
+      "conf": "B"
     }
   },
   "stats": {
