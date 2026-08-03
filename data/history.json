@@ -132,6 +132,25 @@
       "ev_away": -12.643348635306973,
       "ev": 3.3053486931942544,
       "conf": "B"
+    },
+    "401816378": {
+      "date_predicted": "2026-08-03",
+      "game_date": "08-03 17:40",
+      "home_abbr": "PHI",
+      "away_abbr": "WSH",
+      "home_name": "Philadelphia Phillies",
+      "away_name": "Washington Nationals",
+      "predicted_winner": "WSH",
+      "predicted_prob": 51.43767473871103,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 10.023825176927346,
+      "p_home_mkt": 58.58615043821631,
+      "p_away_mkt": 41.413849561783685,
+      "ev_home": -20.702025839161053,
+      "ev_away": 18.821028646422498,
+      "ev": 18.821028646422498,
+      "conf": "C"
     }
   },
   "stats": {
