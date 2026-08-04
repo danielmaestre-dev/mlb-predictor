@@ -142,8 +142,8 @@
       "away_name": "Washington Nationals",
       "predicted_winner": "WSH",
       "predicted_prob": 51.43767473871103,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PHI",
+      "resolved": true,
       "diff": 10.023825176927346,
       "p_home_mkt": 58.58615043821631,
       "p_away_mkt": 41.413849561783685,
@@ -154,8 +154,8 @@
     }
   },
   "stats": {
-    "total": 0,
+    "total": 1,
     "correct": 0,
-    "accuracy": 0
+    "accuracy": 0.0
   }
 }
