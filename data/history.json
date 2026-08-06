@@ -85,8 +85,8 @@
       "away_name": "Los Angeles Angels",
       "predicted_winner": "BAL",
       "predicted_prob": 56.417928826444,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BAL",
+      "resolved": true,
       "diff": 0.2934818034546538,
       "p_home_mkt": 56.124447022989344,
       "p_away_mkt": 43.87555297701066,
@@ -104,8 +104,8 @@
       "away_name": "Athletics",
       "predicted_winner": "CIN",
       "predicted_prob": 72.74122519934993,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CIN",
+      "resolved": true,
       "diff": 16.616778176360583,
       "p_home_mkt": 56.124447022989344,
       "p_away_mkt": 43.87555297701066,
@@ -161,8 +161,8 @@
       "away_name": "Chicago White Sox",
       "predicted_winner": "BOS",
       "predicted_prob": 63.36421993761297,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BOS",
+      "resolved": true,
       "diff": 10.87930918892927,
       "p_home_mkt": 52.4849107486837,
       "p_away_mkt": 47.5150892513163,
@@ -180,8 +180,8 @@
       "away_name": "Miami Marlins",
       "predicted_winner": "ATL",
       "predicted_prob": 62.047311463847656,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ATL",
+      "resolved": true,
       "diff": 7.808915299105884,
       "p_home_mkt": 54.23839616474177,
       "p_away_mkt": 45.76160383525823,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 4,
-    "correct": 3,
-    "accuracy": 0.75
+    "total": 8,
+    "correct": 7,
+    "accuracy": 0.875
   }
 }
