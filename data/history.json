@@ -189,6 +189,25 @@
       "ev_away": -14.031618760269481,
       "ev": 5.061637721149137,
       "conf": "B"
+    },
+    "401816422": {
+      "date_predicted": "2026-08-06",
+      "game_date": "08-06 15:10",
+      "home_abbr": "SEA",
+      "away_abbr": "DET",
+      "home_name": "Seattle Mariners",
+      "away_name": "Detroit Tigers",
+      "predicted_winner": "SEA",
+      "predicted_prob": 54.87529270354447,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 0.5084268608662299,
+      "p_home_mkt": 54.36686584267824,
+      "p_away_mkt": 45.633134157321756,
+      "ev_home": -0.5106481878828006,
+      "ev_away": -2.530632239656039,
+      "ev": -0.5106481878828006,
+      "conf": "A"
     }
   },
   "stats": {
