@@ -104,8 +104,8 @@
       "away_name": "Washington Nationals",
       "predicted_winner": "PHI",
       "predicted_prob": 56.91709675285489,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PHI",
+      "resolved": true,
       "diff": -17.699638310715102,
       "p_home_mkt": 74.61673506356999,
       "p_away_mkt": 25.383264936430024,
@@ -211,8 +211,8 @@
     }
   },
   "stats": {
-    "total": 6,
-    "correct": 4,
-    "accuracy": 0.6666666666666666
+    "total": 7,
+    "correct": 5,
+    "accuracy": 0.7142857142857143
   }
 }
