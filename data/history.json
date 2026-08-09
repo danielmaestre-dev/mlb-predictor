@@ -239,13 +239,13 @@
       "predicted_prob": 51.13323108230618,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 3.6771004124987456,
+      "p_home_mkt": 52.543869330096015,
+      "p_away_mkt": 47.456130669903985,
+      "ev_home": -8.640388545361633,
+      "ev_away": 5.845788340573677,
+      "ev": 5.845788340573677,
+      "conf": "B"
     },
     "401816466": {
       "date_predicted": "2026-08-09",
@@ -264,6 +264,25 @@
       "ev_home": 12.640626896117823,
       "ev_away": -24.867177561273536,
       "ev": 12.640626896117823,
+      "conf": "C"
+    },
+    "401816467": {
+      "date_predicted": "2026-08-09",
+      "game_date": "08-09 15:10",
+      "home_abbr": "ARI",
+      "away_abbr": "LAD",
+      "home_name": "Arizona Diamondbacks",
+      "away_name": "Los Angeles Dodgers",
+      "predicted_winner": "ARI",
+      "predicted_prob": 53.68286261127704,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 11.333709594337378,
+      "p_home_mkt": 42.34915301693966,
+      "p_away_mkt": 57.65084698306035,
+      "ev_home": 24.544241258162746,
+      "ev_away": -21.06516022485242,
+      "ev": 24.544241258162746,
       "conf": "C"
     }
   },
