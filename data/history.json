@@ -256,8 +256,8 @@
       "away_name": "Houston Astros",
       "predicted_winner": "SD",
       "predicted_prob": 63.878450750612274,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": 9.759121283701973,
       "p_home_mkt": 54.1193294669103,
       "p_away_mkt": 45.8806705330897,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 14,
-    "correct": 11,
-    "accuracy": 0.7857142857142857
+    "total": 15,
+    "correct": 12,
+    "accuracy": 0.8
   }
 }
