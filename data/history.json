@@ -265,6 +265,25 @@
       "ev_away": 14.766591355079939,
       "ev": -12.525335096449307,
       "conf": "B"
+    },
+    "401816489": {
+      "date_predicted": "2026-08-11",
+      "game_date": "08-11 20:45",
+      "home_abbr": "SF",
+      "away_abbr": "HOU",
+      "home_name": "San Francisco Giants",
+      "away_name": "Houston Astros",
+      "predicted_winner": "HOU",
+      "predicted_prob": 57.72575077156908,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": -5.145370466953793,
+      "p_home_mkt": 37.12887876147711,
+      "p_away_mkt": 62.871121238522875,
+      "ev_home": 12.026760455341922,
+      "ev_away": -9.660830713420122,
+      "ev": -9.660830713420122,
+      "conf": "B"
     }
   },
   "stats": {
