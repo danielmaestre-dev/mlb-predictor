@@ -9,8 +9,8 @@
       "away_name": "Baltimore Orioles",
       "predicted_winner": "MIN",
       "predicted_prob": 51.197760661275005,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIN",
+      "resolved": true,
       "diff": -0.10472314505334168,
       "p_home_mkt": 51.30248380632835,
       "p_away_mkt": 48.69751619367165,
@@ -28,8 +28,8 @@
       "away_name": "Philadelphia Phillies",
       "predicted_winner": "STL",
       "predicted_prob": 55.294968761008164,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "STL",
+      "resolved": true,
       "diff": 15.023332627085225,
       "p_home_mkt": 40.27163613392294,
       "p_away_mkt": 59.728363866077075,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": 0
+    "total": 2,
+    "correct": 2,
+    "accuracy": 1.0
   }
 }
