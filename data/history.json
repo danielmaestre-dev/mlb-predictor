@@ -151,6 +151,25 @@
       "ev_away": -0.7090827171006842,
       "ev": -7.210503930728651,
       "conf": "A"
+    },
+    "401816516": {
+      "date_predicted": "2026-08-13",
+      "game_date": "08-13 21:07",
+      "home_abbr": "LAA",
+      "away_abbr": "TEX",
+      "home_name": "Los Angeles Angels",
+      "away_name": "Texas Rangers",
+      "predicted_winner": "LAA",
+      "predicted_prob": 51.09275215196204,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 9.513719632952174,
+      "p_home_mkt": 41.579032519009864,
+      "p_away_mkt": 58.420967480990136,
+      "ev_home": 17.51332994951269,
+      "ev_away": -19.94163887295698,
+      "ev": 17.51332994951269,
+      "conf": "C"
     }
   },
   "stats": {
