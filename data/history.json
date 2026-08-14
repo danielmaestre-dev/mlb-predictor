@@ -9,8 +9,8 @@
       "away_name": "St. Louis Cardinals",
       "predicted_winner": "CHC",
       "predicted_prob": 69.11894034280726,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHC",
+      "resolved": true,
       "diff": 5.667321586489059,
       "p_home_mkt": 63.451618756318204,
       "p_away_mkt": 36.548381243681796,
@@ -268,8 +268,8 @@
     }
   },
   "stats": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": 0
+    "total": 1,
+    "correct": 1,
+    "accuracy": 1.0
   }
 }
