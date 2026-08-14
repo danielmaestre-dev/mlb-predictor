@@ -104,8 +104,8 @@
       "away_name": "Chicago Cubs",
       "predicted_winner": "CHC",
       "predicted_prob": 53.638438196498264,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "WSH",
+      "resolved": true,
       "diff": -2.48600882649108,
       "p_home_mkt": 43.87555297701066,
       "p_away_mkt": 56.124447022989344,
@@ -173,8 +173,8 @@
     }
   },
   "stats": {
-    "total": 5,
+    "total": 6,
     "correct": 2,
-    "accuracy": 0.4
+    "accuracy": 0.3333333333333333
   }
 }
