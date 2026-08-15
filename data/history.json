@@ -265,6 +265,25 @@
       "ev_away": -7.217229733510067,
       "ev": -7.217229733510067,
       "conf": "A"
+    },
+    "401816536": {
+      "date_predicted": "2026-08-15",
+      "game_date": "08-15 17:40",
+      "home_abbr": "CIN",
+      "away_abbr": "MIA",
+      "home_name": "Cincinnati Reds",
+      "away_name": "Miami Marlins",
+      "predicted_winner": "CIN",
+      "predicted_prob": 51.60751761745712,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 0.5394833650810966,
+      "p_home_mkt": 51.06803425237602,
+      "p_away_mkt": 48.93196574762398,
+      "ev_home": -0.6077438478603536,
+      "ev_away": -2.731110411088822,
+      "ev": -0.6077438478603536,
+      "conf": "A"
     }
   },
   "stats": {
