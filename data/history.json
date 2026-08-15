@@ -9,8 +9,8 @@
       "away_name": "Chicago White Sox",
       "predicted_winner": "DET",
       "predicted_prob": 61.998925833988054,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 5.432376952951536,
       "p_home_mkt": 56.56654888103652,
       "p_away_mkt": 43.43345111896348,
@@ -28,8 +28,8 @@
       "away_name": "St. Louis Cardinals",
       "predicted_winner": "CHC",
       "predicted_prob": 64.89641155711223,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "STL",
+      "resolved": true,
       "diff": 3.3006537908450824,
       "p_home_mkt": 61.59575776626715,
       "p_away_mkt": 38.404242233732866,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 0,
+    "total": 2,
     "correct": 0,
-    "accuracy": 0
+    "accuracy": 0.0
   }
 }
