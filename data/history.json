@@ -28,8 +28,8 @@
       "away_name": "Miami Marlins",
       "predicted_winner": "CIN",
       "predicted_prob": 60.511283937451665,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CIN",
+      "resolved": true,
       "diff": 9.52960854478151,
       "p_home_mkt": 50.981675392670155,
       "p_away_mkt": 49.018324607329845,
@@ -268,8 +268,8 @@
     }
   },
   "stats": {
-    "total": 1,
-    "correct": 1,
+    "total": 2,
+    "correct": 2,
     "accuracy": 1.0
   }
 }
