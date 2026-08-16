@@ -265,6 +265,25 @@
       "ev_away": -0.35329196697279075,
       "ev": -7.476751983436447,
       "conf": "A"
+    },
+    "401816549": {
+      "date_predicted": "2026-08-16",
+      "game_date": "08-16 12:35",
+      "home_abbr": "PIT",
+      "away_abbr": "BOS",
+      "home_name": "Pittsburgh Pirates",
+      "away_name": "Boston Red Sox",
+      "predicted_winner": "BOS",
+      "predicted_prob": 51.55783631306636,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": -0.7637036566333109,
+      "p_home_mkt": 47.678460030300336,
+      "p_away_mkt": 52.32153996969967,
+      "ev_home": -0.20914280491670656,
+      "ev_away": -3.2159914824894553,
+      "ev": -3.2159914824894553,
+      "conf": "A"
     }
   },
   "stats": {
