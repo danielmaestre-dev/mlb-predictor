@@ -47,8 +47,8 @@
       "away_name": "New York Yankees",
       "predicted_winner": "NYY",
       "predicted_prob": 52.089297820292636,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TOR",
+      "resolved": true,
       "diff": -8.736913005918176,
       "p_home_mkt": 39.17378917378917,
       "p_away_mkt": 60.82621082621081,
@@ -66,8 +66,8 @@
       "away_name": "Colorado Rockies",
       "predicted_winner": "SF",
       "predicted_prob": 87.74832171126978,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SF",
+      "resolved": true,
       "diff": 24.924936093017592,
       "p_home_mkt": 62.82338561825219,
       "p_away_mkt": 37.17661438174781,
@@ -85,8 +85,8 @@
       "away_name": "Washington Nationals",
       "predicted_winner": "NYM",
       "predicted_prob": 67.0145050885685,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "NYM",
+      "resolved": true,
       "diff": 10.706182093800706,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 2,
-    "correct": 0,
-    "accuracy": 0.0
+    "total": 5,
+    "correct": 2,
+    "accuracy": 0.4
   }
 }
