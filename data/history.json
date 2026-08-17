@@ -256,8 +256,8 @@
       "away_name": "Seattle Mariners",
       "predicted_winner": "HOU",
       "predicted_prob": 54.29050090228109,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SEA",
+      "resolved": true,
       "diff": -1.833946120708255,
       "p_home_mkt": 56.124447022989344,
       "p_away_mkt": 43.87555297701066,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 14,
+    "total": 15,
     "correct": 4,
-    "accuracy": 0.2857142857142857
+    "accuracy": 0.26666666666666666
   }
 }
