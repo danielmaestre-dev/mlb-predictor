@@ -265,6 +265,25 @@
       "ev_away": -19.30259665006607,
       "ev": -19.30259665006607,
       "conf": "C"
+    },
+    "401816577": {
+      "date_predicted": "2026-08-18",
+      "game_date": "08-18 17:40",
+      "home_abbr": "CIN",
+      "away_abbr": "STL",
+      "home_name": "Cincinnati Reds",
+      "away_name": "St. Louis Cardinals",
+      "predicted_winner": "CIN",
+      "predicted_prob": 51.961661440611564,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 4.661784462713122,
+      "p_home_mkt": 47.29987697789844,
+      "p_away_mkt": 52.700123022101565,
+      "ev_home": 4.962556110035354,
+      "ev_away": -12.906101636230716,
+      "ev": 4.962556110035354,
+      "conf": "B"
     }
   },
   "stats": {
