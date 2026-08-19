@@ -9,8 +9,8 @@
       "away_name": "Detroit Tigers",
       "predicted_winner": "PIT",
       "predicted_prob": 54.768778284006004,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PIT",
+      "resolved": true,
       "diff": -3.5758437696379985,
       "p_home_mkt": 58.344622053644,
       "p_away_mkt": 41.655377946356,
@@ -28,8 +28,8 @@
       "away_name": "San Diego Padres",
       "predicted_winner": "SD",
       "predicted_prob": 53.157748724513716,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "NYM",
+      "resolved": true,
       "diff": -1.9886157702927036,
       "p_home_mkt": 44.85363550519358,
       "p_away_mkt": 55.14636449480642,
@@ -47,8 +47,8 @@
       "away_name": "Atlanta Braves",
       "predicted_winner": "ATL",
       "predicted_prob": 57.406898234337326,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIN",
+      "resolved": true,
       "diff": 6.338863981961303,
       "p_home_mkt": 48.93196574762398,
       "p_away_mkt": 51.06803425237602,
@@ -66,8 +66,8 @@
       "away_name": "Chicago White Sox",
       "predicted_winner": "CHC",
       "predicted_prob": 63.76617896533728,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 6.470805299856849,
       "p_home_mkt": 57.29537366548043,
       "p_away_mkt": 42.70462633451957,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": 0
+    "total": 4,
+    "correct": 1,
+    "accuracy": 0.25
   }
 }
