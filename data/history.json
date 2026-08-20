@@ -85,8 +85,8 @@
       "away_name": "Arizona Diamondbacks",
       "predicted_winner": "BOS",
       "predicted_prob": 58.943464114709535,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ARI",
+      "resolved": true,
       "diff": 1.780699822728188,
       "p_home_mkt": 57.16276429198135,
       "p_away_mkt": 42.837235708018646,
@@ -104,8 +104,8 @@
       "away_name": "Miami Marlins",
       "predicted_winner": "PHI",
       "predicted_prob": 52.495986545330965,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PHI",
+      "resolved": true,
       "diff": -1.7424096194108074,
       "p_home_mkt": 54.23839616474177,
       "p_away_mkt": 45.76160383525823,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 4,
-    "correct": 1,
-    "accuracy": 0.25
+    "total": 6,
+    "correct": 2,
+    "accuracy": 0.3333333333333333
   }
 }
