@@ -113,6 +113,25 @@
       "ev_away": -11.107098062851295,
       "ev": -0.4932728191841873,
       "conf": "A"
+    },
+    "401877087": {
+      "date_predicted": "2026-08-20",
+      "game_date": "08-20 13:10",
+      "home_abbr": "CHW",
+      "away_abbr": "ATL",
+      "home_name": "Chicago White Sox",
+      "away_name": "Atlanta Braves",
+      "predicted_winner": "ATL",
+      "predicted_prob": 53.50437529673569,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 2.436341044359665,
+      "p_home_mkt": 48.93196574762398,
+      "p_away_mkt": 51.06803425237602,
+      "ev_home": -6.543794346438747,
+      "ev_away": 3.0454635344539183,
+      "ev": 3.0454635344539183,
+      "conf": "A"
     }
   },
   "stats": {
