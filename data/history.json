@@ -275,8 +275,8 @@
       "away_name": "Atlanta Braves",
       "predicted_winner": "MIL",
       "predicted_prob": 58.21710097006311,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ATL",
+      "resolved": true,
       "diff": 4.180330386529931,
       "p_home_mkt": 54.036770583533176,
       "p_away_mkt": 45.96322941646683,
@@ -287,8 +287,8 @@
     }
   },
   "stats": {
-    "total": 14,
+    "total": 15,
     "correct": 10,
-    "accuracy": 0.7142857142857143
+    "accuracy": 0.6666666666666666
   }
 }
