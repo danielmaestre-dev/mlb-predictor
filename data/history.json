@@ -9,8 +9,8 @@
       "away_name": "Tampa Bay Rays",
       "predicted_winner": "DET",
       "predicted_prob": 52.63992971227884,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": 9.802694004260196,
       "p_home_mkt": 42.837235708018646,
       "p_away_mkt": 57.16276429198135,
@@ -28,8 +28,8 @@
       "away_name": "Colorado Rockies",
       "predicted_winner": "WSH",
       "predicted_prob": 76.71460703880143,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "WSH",
+      "resolved": true,
       "diff": 13.891221420549243,
       "p_home_mkt": 62.82338561825219,
       "p_away_mkt": 37.17661438174781,
@@ -47,8 +47,8 @@
       "away_name": "Texas Rangers",
       "predicted_winner": "CHW",
       "predicted_prob": 60.507135279701195,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TEX",
+      "resolved": true,
       "diff": 6.268739114959423,
       "p_home_mkt": 54.23839616474177,
       "p_away_mkt": 45.76160383525823,
@@ -173,8 +173,8 @@
     }
   },
   "stats": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": 0
+    "total": 3,
+    "correct": 1,
+    "accuracy": 0.3333333333333333
   }
 }
