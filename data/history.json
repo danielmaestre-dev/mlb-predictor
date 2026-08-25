@@ -246,6 +246,25 @@
       "ev_away": 8.144172410812267,
       "ev": 8.144172410812267,
       "conf": "B"
+    },
+    "401816676": {
+      "date_predicted": "2026-08-25",
+      "game_date": "08-25 20:38",
+      "home_abbr": "LAA",
+      "away_abbr": "CLE",
+      "home_name": "Los Angeles Angels",
+      "away_name": "Cleveland Guardians",
+      "predicted_winner": "LAA",
+      "predicted_prob": 51.57784107986496,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 8.9793320276818,
+      "p_home_mkt": 42.59850905218316,
+      "p_away_mkt": 57.401490947816825,
+      "ev_home": 19.144812894488062,
+      "ev_away": -16.990584708339927,
+      "ev": 19.144812894488062,
+      "conf": "C"
     }
   },
   "stats": {
