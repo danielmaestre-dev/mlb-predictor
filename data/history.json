@@ -265,6 +265,25 @@
       "ev_away": -16.990584708339927,
       "ev": 19.144812894488062,
       "conf": "C"
+    },
+    "401816665": {
+      "date_predicted": "2026-08-25",
+      "game_date": "08-25 17:40",
+      "home_abbr": "MIA",
+      "away_abbr": "BOS",
+      "home_name": "Miami Marlins",
+      "away_name": "Boston Red Sox",
+      "predicted_winner": "BOS",
+      "predicted_prob": 52.09316438293472,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     }
   },
   "stats": {
