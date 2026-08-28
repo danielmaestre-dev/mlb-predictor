@@ -9,8 +9,8 @@
       "away_name": "Colorado Rockies",
       "predicted_winner": "WSH",
       "predicted_prob": 60.383016686830636,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "WSH",
+      "resolved": true,
       "diff": 3.8934777125666074,
       "p_home_mkt": 56.48953897426403,
       "p_away_mkt": 43.51046102573598,
@@ -28,8 +28,8 @@
       "away_name": "Baltimore Orioles",
       "predicted_winner": "STL",
       "predicted_prob": 56.20395912264948,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "STL",
+      "resolved": true,
       "diff": 9.617135322951547,
       "p_home_mkt": 46.58682379969793,
       "p_away_mkt": 53.41317620030207,
@@ -135,8 +135,8 @@
     }
   },
   "stats": {
-    "total": 0,
-    "correct": 0,
-    "accuracy": 0
+    "total": 2,
+    "correct": 2,
+    "accuracy": 1.0
   }
 }
