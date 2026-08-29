@@ -125,13 +125,13 @@
       "predicted_prob": 55.22212024278247,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 0.6618713660945588,
+      "p_home_mkt": 51.87068652379223,
+      "p_away_mkt": 48.12931347620778,
+      "ev_home": -0.5633725655714406,
+      "ev_away": -3.16641809536905,
+      "ev": -0.5633725655714406,
+      "conf": "A"
     },
     "401816718": {
       "date_predicted": "2026-08-29",
@@ -220,13 +220,13 @@
       "predicted_prob": 56.95105402467362,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 2.49432012756602,
+      "p_home_mkt": 54.456733897202334,
+      "p_away_mkt": 45.54326610279765,
+      "ev_home": 2.879323399581546,
+      "ev_away": -7.014276693499644,
+      "ev": 2.879323399581546,
+      "conf": "A"
     },
     "401816728": {
       "date_predicted": "2026-08-29",
@@ -277,13 +277,13 @@
       "predicted_prob": 60.40274807725443,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 1.1938465995743854,
+      "p_home_mkt": 43.01373664492854,
+      "p_away_mkt": 56.986263355071465,
+      "ev_home": -7.159844099313794,
+      "ev_away": -2.5090049408637016,
+      "ev": -2.5090049408637016,
+      "conf": "A"
     },
     "401816731": {
       "date_predicted": "2026-08-29",
@@ -302,6 +302,25 @@
       "ev_home": -5.998834954521081,
       "ev_away": -3.581285215199126,
       "ev": -3.581285215199126,
+      "conf": "A"
+    },
+    "401816722": {
+      "date_predicted": "2026-08-29",
+      "game_date": "08-29 15:05",
+      "home_abbr": "WSH",
+      "away_abbr": "MIA",
+      "home_name": "Washington Nationals",
+      "away_name": "Miami Marlins",
+      "predicted_winner": "WSH",
+      "predicted_prob": 53.43940225859923,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 2.371368006223207,
+      "p_home_mkt": 51.06803425237602,
+      "p_away_mkt": 48.93196574762398,
+      "ev_home": 2.9203302758207483,
+      "ev_away": -6.413198539784459,
+      "ev": 2.9203302758207483,
       "conf": "A"
     }
   },
