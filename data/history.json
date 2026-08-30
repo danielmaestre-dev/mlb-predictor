@@ -246,6 +246,25 @@
       "ev_away": -24.264886360020398,
       "ev": 11.216250481731915,
       "conf": "C"
+    },
+    "401816739": {
+      "date_predicted": "2026-08-30",
+      "game_date": "08-30 12:37",
+      "home_abbr": "TOR",
+      "away_abbr": "SEA",
+      "home_name": "Toronto Blue Jays",
+      "away_name": "Seattle Mariners",
+      "predicted_winner": "TOR",
+      "predicted_prob": 51.03763905100527,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     }
   },
   "stats": {
