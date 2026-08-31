@@ -38,9 +38,8 @@ def save_history(history):
 
 
 def recalc_stats(history):
-    today_str = datetime.now(PERU_TZ).strftime('%Y-%m-%d')
     resolved = [p for p in history.get('predictions', {}).values()
-                if p.get('resolved') and p.get('date_predicted') == today_str]
+                if p.get('resolved')]
     correct = sum(1 for p in resolved if p.get('actual_winner') == p.get('predicted_winner'))
     total = len(resolved)
     history['stats'] = {
@@ -92,10 +91,6 @@ def add_predictions_to_history(history, results):
     if 'predictions' not in history:
         history['predictions'] = {}
     today_str = datetime.now(PERU_TZ).strftime('%Y-%m-%d')
-    old_ids = [gid for gid, p in history['predictions'].items()
-               if p.get('date_predicted', '') != today_str]
-    for gid in old_ids:
-        del history['predictions'][gid]
     for r in results:
         gid = r['game_id']
         p_home = r['p_home']

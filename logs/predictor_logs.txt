@@ -216,3 +216,221 @@
 [2026-07-23 18:01] 5 partidos (2 jugados) | Detroit Tigers 63%
 [2026-07-23 18:06] 5 partidos (2 jugados) | St. Louis Cardinals 68% | Detroit Tigers 63%
 [2026-07-23 18:12] 5 partidos (2 jugados) | St. Louis Cardinals 68% | Detroit Tigers 63%
+[2026-07-23 18:21] 5 partidos (3 jugados) | Detroit Tigers 63% | St. Louis Cardinals 52%
+[2026-07-23 19:00] 5 partidos (3 jugados) | Detroit Tigers 63% | St. Louis Cardinals 52%
+[2026-07-24 01:00] 15 partidos (0 jugados) | Milwaukee Brewers 73% | Minnesota Twins 69% | St. Louis Cardinals 67%
+[2026-07-24 17:01] 15 partidos (0 jugados) | Milwaukee Brewers 73% | Minnesota Twins 69% | St. Louis Cardinals 67%
+[2026-07-24 18:00] 15 partidos (0 jugados) | Milwaukee Brewers 73% | Minnesota Twins 70% | Chicago White Sox 66%
+[2026-07-24 19:00] 15 partidos (1 jugados) | Minnesota Twins 69% | St. Louis Cardinals 66% | Detroit Tigers 64%
+[2026-07-24 20:00] 15 partidos (2 jugados) | Minnesota Twins 69% | St. Louis Cardinals 65% | Chicago White Sox 64%
+[2026-07-24 20:43] 15 partidos (2 jugados) | Minnesota Twins 70% | St. Louis Cardinals 65% | Chicago White Sox 64%
+[2026-07-24 21:00] 15 partidos (2 jugados) | Minnesota Twins 70% | St. Louis Cardinals 66% | Chicago White Sox 64%
+[2026-07-24 22:00] 15 partidos (12 jugados) | Chicago White Sox 64% | San Francisco Giants 63%
+[2026-07-24 23:00] 15 partidos (13 jugados) | San Francisco Giants 63%
+[2026-07-25 00:00] 15 partidos (0 jugados) | Milwaukee Brewers 72% | Boston Red Sox 65% | Detroit Tigers 65%
+[2026-07-25 09:00] 15 partidos (0 jugados) | Milwaukee Brewers 73% | San Francisco Giants 66% | Boston Red Sox 65%
+[2026-07-25 18:10] 15 partidos (4 jugados) | Milwaukee Brewers 73% | Minnesota Twins 67% | Chicago White Sox 62%
+[2026-07-25 19:00] 15 partidos (4 jugados) | Milwaukee Brewers 73% | Miami Marlins 68% | Minnesota Twins 68%
+[2026-07-25 20:00] 15 partidos (7 jugados) | Milwaukee Brewers 73% | Minnesota Twins 67% | Chicago White Sox 64%
+[2026-07-25 23:47] 15 partidos (14 jugados)
+[2026-07-26 00:00] 15 partidos (0 jugados) | Milwaukee Brewers 76% | Chicago White Sox 67% | Miami Marlins 66%
+[2026-07-26 01:00] 15 partidos (0 jugados) | Milwaukee Brewers 79% | Minnesota Twins 66% | Boston Red Sox 65%
+[2026-07-26 02:00] 15 partidos (0 jugados) | Milwaukee Brewers 79% | Minnesota Twins 66% | Boston Red Sox 65%
+[2026-07-26 03:00] 15 partidos (0 jugados) | Milwaukee Brewers 79% | Minnesota Twins 69% | Chicago White Sox 66%
+[2026-07-26 04:00] 15 partidos (0 jugados) | Milwaukee Brewers 79% | Boston Red Sox 66% | Minnesota Twins 66%
+[2026-07-26 14:39] 15 partidos (1 jugados) | Milwaukee Brewers 79% | Minnesota Twins 66% | Chicago White Sox 66%
+[2026-07-26 15:00] 15 partidos (1 jugados) | Milwaukee Brewers 79% | Minnesota Twins 67% | Chicago White Sox 66%
+[2026-07-26 20:10] 15 partidos (14 jugados) | Philadelphia Phillies 52%
+[2026-07-26 20:44] 15 partidos (14 jugados)
+[2026-07-26 21:00] 15 partidos (13 jugados)
+[2026-07-26 22:00] 15 partidos (15 jugados)
+[2026-07-26 23:00] 15 partidos (14 jugados)
+[2026-07-27 00:00] 12 partidos (0 jugados) | Boston Red Sox 70% | New York Mets 64% | Washington Nationals 61%
+[2026-07-27 01:00] 12 partidos (0 jugados) | Boston Red Sox 70% | New York Mets 64% | Washington Nationals 62%
+[2026-07-27 02:00] 12 partidos (0 jugados) | Boston Red Sox 74% | Washington Nationals 67% | New York Mets 64%
+[2026-07-27 16:01] 12 partidos (0 jugados) | Boston Red Sox 70% | New York Mets 64% | Pittsburgh Pirates 62%
+[2026-07-27 17:00] 12 partidos (0 jugados) | Boston Red Sox 70% | New York Mets 64% | Pittsburgh Pirates 62%
+[2026-07-27 18:00] 12 partidos (1 jugados) | Boston Red Sox 70% | New York Mets 65% | Pittsburgh Pirates 62%
+[2026-07-27 19:01] 12 partidos (2 jugados) | Boston Red Sox 70% | New York Mets 65% | Pittsburgh Pirates 62%
+[2026-07-27 21:01] 12 partidos (7 jugados) | Boston Red Sox 70% | Milwaukee Brewers 59% | Los Angeles Angels 56%
+[2026-07-27 22:01] 12 partidos (7 jugados) | Boston Red Sox 70% | Milwaukee Brewers 63% | Los Angeles Angels 54%
+[2026-07-27 23:01] 12 partidos (8 jugados) | Boston Red Sox 70% | Milwaukee Brewers 59% | Los Angeles Angels 55%
+[2026-07-28 00:01] 16 partidos (0 jugados) | San Diego Padres 70% | Boston Red Sox 68% | Miami Marlins 66%
+[2026-07-28 15:00] 16 partidos (1 jugados) | San Diego Padres 70% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 16:00] 16 partidos (2 jugados) | San Diego Padres 80% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 17:00] 16 partidos (2 jugados) | San Diego Padres 70% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 18:00] 16 partidos (2 jugados) | San Diego Padres 70% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 19:00] 16 partidos (2 jugados) | San Diego Padres 71% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 20:00] 16 partidos (2 jugados) | San Diego Padres 80% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 21:00] 16 partidos (6 jugados) | San Diego Padres 77% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 22:00] 16 partidos (6 jugados) | San Diego Padres 70% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-28 23:00] 16 partidos (10 jugados) | San Diego Padres 70% | Los Angeles Dodgers 70% | Boston Red Sox 68%
+[2026-07-29 00:00] 16 partidos (0 jugados) | Boston Red Sox 70% | New York Mets 65% | San Diego Padres 65%
+[2026-07-29 02:00] 16 partidos (0 jugados) | Boston Red Sox 68% | New York Mets 67% | New York Mets 65%
+[2026-07-29 03:00] 16 partidos (0 jugados) | Boston Red Sox 69% | New York Mets 69% | New York Mets 67%
+[2026-07-29 05:00] 16 partidos (0 jugados) | Boston Red Sox 69% | New York Mets 67% | New York Mets 65%
+[2026-07-29 06:00] 16 partidos (0 jugados) | Boston Red Sox 68% | San Francisco Giants 66% | Los Angeles Dodgers 63%
+[2026-07-29 08:00] 16 partidos (0 jugados) | Boston Red Sox 68% | New York Mets 67% | New York Mets 65%
+[2026-07-29 09:00] 16 partidos (0 jugados) | Boston Red Sox 68% | Los Angeles Dodgers 63% | Miami Marlins 63%
+[2026-07-29 10:00] 16 partidos (0 jugados) | Boston Red Sox 68% | Miami Marlins 64% | Milwaukee Brewers 64%
+[2026-07-29 15:00] 16 partidos (3 jugados) | Boston Red Sox 68% | New York Mets 66% | Los Angeles Dodgers 63%
+[2026-07-29 16:00] 16 partidos (3 jugados) | Boston Red Sox 68% | San Francisco Giants 68% | Los Angeles Dodgers 63%
+[2026-07-29 19:01] 16 partidos (6 jugados) | Boston Red Sox 68% | New York Mets 66% | Los Angeles Dodgers 63%
+[2026-07-29 20:00] 16 partidos (6 jugados) | Boston Red Sox 68% | New York Mets 67% | Los Angeles Dodgers 63%
+[2026-07-29 21:00] 16 partidos (8 jugados) | Boston Red Sox 68% | Los Angeles Dodgers 63% | St. Louis Cardinals 58%
+[2026-07-29 22:00] 16 partidos (10 jugados) | Boston Red Sox 69% | Los Angeles Dodgers 63% | Houston Astros 54%
+[2026-07-29 23:00] 16 partidos (11 jugados) | Boston Red Sox 68% | Los Angeles Dodgers 63% | Houston Astros 54%
+[2026-07-30 00:00] 10 partidos (0 jugados) | New York Mets 73% | Tampa Bay Rays 67% | Los Angeles Dodgers 66%
+[2026-07-30 01:00] 10 partidos (0 jugados) | New York Mets 72% | Tampa Bay Rays 67% | Los Angeles Dodgers 67%
+[2026-07-30 22:11] 10 partidos (7 jugados) | Los Angeles Dodgers 67% | Boston Red Sox 66% | San Diego Padres 54%
+[2026-07-30 23:01] 10 partidos (7 jugados) | Los Angeles Dodgers 67% | Boston Red Sox 66% | San Diego Padres 54%
+[2026-07-31 13:00] 15 partidos (0 jugados) | Milwaukee Brewers 66% | Detroit Tigers 63% | Baltimore Orioles 62%
+[2026-07-31 16:01] 15 partidos (1 jugados) | New York Mets 68% | Milwaukee Brewers 67% | Baltimore Orioles 66%
+[2026-07-31 17:01] 15 partidos (1 jugados) | New York Mets 71% | Milwaukee Brewers 66% | Baltimore Orioles 66%
+[2026-07-31 18:01] 15 partidos (1 jugados) | New York Mets 70% | Milwaukee Brewers 67% | Detroit Tigers 66%
+[2026-07-31 19:01] 15 partidos (1 jugados) | New York Mets 71% | Milwaukee Brewers 67% | Baltimore Orioles 66%
+[2026-07-31 20:01] 15 partidos (1 jugados) | New York Mets 71% | Milwaukee Brewers 67% | Detroit Tigers 67%
+[2026-07-31 21:01] 15 partidos (1 jugados) | Colorado Rockies 71% | Milwaukee Brewers 67% | Baltimore Orioles 66%
+[2026-07-31 22:01] 15 partidos (8 jugados) | Milwaukee Brewers 67% | Detroit Tigers 66% | Los Angeles Dodgers 60%
+[2026-07-31 23:01] 15 partidos (10 jugados) | Milwaukee Brewers 67% | Detroit Tigers 66% | Los Angeles Dodgers 60%
+[2026-08-01 00:01] 15 partidos (0 jugados) | New York Mets 72% | Atlanta Braves 64% | Detroit Tigers 62%
+[2026-08-01 01:01] 15 partidos (0 jugados) | New York Mets 66% | Atlanta Braves 65% | Detroit Tigers 63%
+[2026-08-01 02:01] 15 partidos (0 jugados) | New York Mets 72% | Atlanta Braves 64% | Detroit Tigers 63%
+[2026-08-01 03:01] 15 partidos (0 jugados) | New York Mets 75% | Atlanta Braves 64% | Detroit Tigers 63%
+[2026-08-01 20:00] 15 partidos (4 jugados) | Atlanta Braves 64% | Milwaukee Brewers 63% | Detroit Tigers 62%
+[2026-08-01 21:00] 15 partidos (5 jugados) | Milwaukee Brewers 63% | Detroit Tigers 62% | Los Angeles Dodgers 60%
+[2026-08-01 22:01] 15 partidos (9 jugados) | Milwaukee Brewers 63% | Detroit Tigers 63% | Los Angeles Dodgers 60%
+[2026-08-01 23:00] 15 partidos (9 jugados) | Milwaukee Brewers 63% | Detroit Tigers 62% | Los Angeles Dodgers 60%
+[2026-08-02 00:00] 15 partidos (0 jugados) | New York Mets 69% | Milwaukee Brewers 62% | Tampa Bay Rays 61%
+[2026-08-02 15:00] 15 partidos (0 jugados) | New York Mets 71% | Milwaukee Brewers 64% | Detroit Tigers 61%
+[2026-08-02 16:00] 15 partidos (4 jugados) | Colorado Rockies 75% | Milwaukee Brewers 65% | Detroit Tigers 61%
+[2026-08-02 17:00] 15 partidos (10 jugados) | Detroit Tigers 62% | San Diego Padres 55% | Seattle Mariners 54%
+[2026-08-02 18:00] 15 partidos (11 jugados) | Detroit Tigers 61% | San Diego Padres 55% | Los Angeles Dodgers 54%
+[2026-08-02 19:00] 15 partidos (14 jugados) | Los Angeles Dodgers 54%
+[2026-08-02 20:00] 15 partidos (14 jugados) | Los Angeles Dodgers 54%
+[2026-08-02 21:00] 15 partidos (12 jugados) | Los Angeles Dodgers 54%
+[2026-08-02 22:00] 15 partidos (14 jugados) | Los Angeles Dodgers 54%
+[2026-08-02 23:00] 15 partidos (15 jugados)
+[2026-08-03 00:00] 8 partidos (0 jugados) | Milwaukee Brewers 66% | New York Yankees 64% | Houston Astros 60%
+[2026-08-03 01:00] 8 partidos (0 jugados) | Milwaukee Brewers 66% | New York Yankees 64% | Houston Astros 60%
+[2026-08-03 02:00] 8 partidos (0 jugados) | Milwaukee Brewers 66% | New York Yankees 64% | Tampa Bay Rays 63%
+[2026-08-03 09:00] 8 partidos (0 jugados) | Milwaukee Brewers 66% | New York Yankees 63% | Houston Astros 60%
+[2026-08-03 10:00] 8 partidos (0 jugados) | Milwaukee Brewers 65% | New York Yankees 63% | Texas Rangers 62%
+[2026-08-03 21:01] 8 partidos (1 jugados) | Milwaukee Brewers 65% | Tampa Bay Rays 63% | New York Yankees 63%
+[2026-08-03 22:00] 8 partidos (5 jugados) | Colorado Rockies 66% | Texas Rangers 54% | Arizona Diamondbacks 53%
+[2026-08-03 23:01] 8 partidos (6 jugados) | Arizona Diamondbacks 53%
+[2026-08-04 00:00] 15 partidos (0 jugados) | Cincinnati Reds 66% | Milwaukee Brewers 66% | Atlanta Braves 65%
+[2026-08-04 01:01] 15 partidos (0 jugados) | Cincinnati Reds 66% | Milwaukee Brewers 66% | Atlanta Braves 65%
+[2026-08-04 22:00] 15 partidos (11 jugados) | Arizona Diamondbacks 59% | Colorado Rockies 53% | Detroit Tigers 53%
+[2026-08-04 23:00] 15 partidos (12 jugados) | Arizona Diamondbacks 62% | Tampa Bay Rays 54% | Detroit Tigers 54%
+[2026-08-05 00:00] 15 partidos (0 jugados) | Cincinnati Reds 72% | Houston Astros 66% | Milwaukee Brewers 65%
+[2026-08-05 01:00] 15 partidos (0 jugados) | Cincinnati Reds 72% | Milwaukee Brewers 65% | Houston Astros 64%
+[2026-08-05 23:00] 15 partidos (13 jugados) | Detroit Tigers 53%
+[2026-08-06 00:00] 11 partidos (0 jugados) | Cincinnati Reds 74% | Boston Red Sox 69% | Atlanta Braves 68%
+[2026-08-06 21:00] 11 partidos (6 jugados) | Atlanta Braves 66% | Boston Red Sox 61% | Kansas City Royals 54%
+[2026-08-06 22:00] 11 partidos (8 jugados) | Boston Red Sox 69% | Atlanta Braves 68% | Arizona Diamondbacks 60%
+[2026-08-06 23:00] 11 partidos (9 jugados) | Arizona Diamondbacks 54%
+[2026-08-07 00:00] 15 partidos (0 jugados) | Boston Red Sox 83% | St. Louis Cardinals 75% | Milwaukee Brewers 71%
+[2026-08-07 23:00] 15 partidos (9 jugados) | San Diego Padres 65% | Philadelphia Phillies 60% | Detroit Tigers 56%
+[2026-08-08 00:00] 15 partidos (0 jugados) | Boston Red Sox 82% | New York Mets 69% | Chicago Cubs 67%
+[2026-08-08 22:01] 15 partidos (12 jugados) | Tampa Bay Rays 53% | Arizona Diamondbacks 52%
+[2026-08-08 23:00] 15 partidos (13 jugados) | Tampa Bay Rays 53% | Los Angeles Dodgers 52%
+[2026-08-09 00:01] 15 partidos (0 jugados) | Boston Red Sox 77% | Milwaukee Brewers 73% | St. Louis Cardinals 68%
+[2026-08-09 22:00] 15 partidos (14 jugados)
+[2026-08-09 23:00] 15 partidos (14 jugados)
+[2026-08-10 00:00] 10 partidos (0 jugados) | Los Angeles Dodgers 73% | Tampa Bay Rays 67% | Boston Red Sox 64%
+[2026-08-10 01:00] 10 partidos (0 jugados) | Los Angeles Dodgers 77% | Arizona Diamondbacks 68% | Tampa Bay Rays 67%
+[2026-08-10 23:00] 10 partidos (4 jugados) | Los Angeles Dodgers 72% | Tampa Bay Rays 68% | Arizona Diamondbacks 60%
+[2026-08-11 00:00] 15 partidos (0 jugados) | Tampa Bay Rays 72% | Detroit Tigers 66% | Los Angeles Dodgers 64%
+[2026-08-12 18:00] 15 partidos (4 jugados) | Los Angeles Dodgers 67% | Detroit Tigers 66% | New York Mets 61%
+[2026-08-12 21:02] 15 partidos (10 jugados) | Los Angeles Dodgers 67% | Texas Rangers 60% | New York Yankees 60%
+[2026-08-12 22:00] 15 partidos (10 jugados) | Los Angeles Dodgers 67% | Texas Rangers 60% | New York Yankees 60%
+[2026-08-12 23:00] 15 partidos (12 jugados) | Los Angeles Dodgers 67% | Texas Rangers 58%
+[2026-08-13 00:00] 9 partidos (0 jugados) | Detroit Tigers 66% | New York Yankees 63% | Miami Marlins 63%
+[2026-08-13 01:00] 9 partidos (0 jugados) | New York Yankees 63% | Detroit Tigers 63% | Miami Marlins 63%
+[2026-08-13 08:47] 9 partidos (0 jugados) | New York Yankees 63% | Detroit Tigers 63% | Miami Marlins 61%
+[2026-08-13 09:00] 9 partidos (0 jugados) | Detroit Tigers 66% | New York Yankees 63% | Chicago White Sox 63%
+[2026-08-14 00:01] 14 partidos (0 jugados) | San Francisco Giants 71% | New York Mets 71% | Chicago Cubs 68%
+[2026-08-14 01:00] 14 partidos (0 jugados) | Chicago Cubs 69% | Atlanta Braves 68% | Tampa Bay Rays 62%
+[2026-08-15 01:00] 15 partidos (0 jugados) | New York Mets 77% | Chicago Cubs 66% | Tampa Bay Rays 64%
+[2026-08-15 22:00] 15 partidos (10 jugados) | Los Angeles Angels 55% | Texas Rangers 53%
+[2026-08-15 23:00] 15 partidos (11 jugados) | Texas Rangers 53%
+[2026-08-16 00:00] 15 partidos (0 jugados) | San Francisco Giants 65% | Pittsburgh Pirates 63% | Tampa Bay Rays 62%
+[2026-08-16 01:00] 15 partidos (0 jugados) | New York Mets 81% | San Francisco Giants 65% | Tampa Bay Rays 63%
+[2026-08-16 02:00] 15 partidos (0 jugados) | New York Mets 82% | San Francisco Giants 64% | Tampa Bay Rays 62%
+[2026-08-16 03:00] 15 partidos (0 jugados) | New York Mets 82% | San Francisco Giants 65% | Tampa Bay Rays 62%
+[2026-08-16 09:00] 15 partidos (0 jugados) | New York Mets 81% | San Francisco Giants 65% | Tampa Bay Rays 63%
+[2026-08-16 10:00] 15 partidos (0 jugados) | San Francisco Giants 65% | Tampa Bay Rays 63% | Texas Rangers 61%
+[2026-08-16 11:01] 15 partidos (0 jugados) | New York Mets 82% | San Francisco Giants 65% | Tampa Bay Rays 62%
+[2026-08-16 15:44] 15 partidos (6 jugados) | San Francisco Giants 65% | Texas Rangers 61% | San Diego Padres 57%
+[2026-08-16 16:00] 15 partidos (6 jugados) | San Francisco Giants 64% | Texas Rangers 60% | Chicago Cubs 58%
+[2026-08-16 22:45] 15 partidos (14 jugados)
+[2026-08-16 23:00] 15 partidos (15 jugados)
+[2026-08-17 00:00] 11 partidos (0 jugados) | New York Mets 74% | Atlanta Braves 64% | Kansas City Royals 63%
+[2026-08-17 01:00] 11 partidos (0 jugados) | Kansas City Royals 63% | Tampa Bay Rays 63% | Atlanta Braves 62%
+[2026-08-17 14:01] 11 partidos (0 jugados) | New York Mets 76% | Atlanta Braves 64% | Kansas City Royals 63%
+[2026-08-17 15:01] 11 partidos (0 jugados) | New York Mets 74% | Kansas City Royals 63% | Tampa Bay Rays 63%
+[2026-08-17 17:01] 11 partidos (1 jugados) | New York Mets 65% | Atlanta Braves 64% | Kansas City Royals 63%
+[2026-08-17 18:01] 11 partidos (1 jugados) | Atlanta Braves 64% | New York Mets 64% | Kansas City Royals 63%
+[2026-08-17 19:01] 11 partidos (1 jugados) | New York Mets 73% | Atlanta Braves 64% | Kansas City Royals 63%
+[2026-08-17 20:01] 11 partidos (1 jugados) | New York Mets 74% | Kansas City Royals 63% | Atlanta Braves 63%
+[2026-08-17 21:01] 11 partidos (4 jugados) | Atlanta Braves 64% | Kansas City Royals 63% | Chicago Cubs 61%
+[2026-08-17 22:00] 11 partidos (4 jugados) | Atlanta Braves 64% | Kansas City Royals 63% | Chicago Cubs 61%
+[2026-08-17 23:00] 11 partidos (10 jugados)
+[2026-08-18 00:01] 15 partidos (0 jugados) | New York Mets 77% | Kansas City Royals 66% | Milwaukee Brewers 63%
+[2026-08-19 00:00] 15 partidos (0 jugados) | New York Mets 70% | Milwaukee Brewers 69% | Tampa Bay Rays 66%
+[2026-08-20 00:01] 9 partidos (0 jugados) | Kansas City Royals 68% | Milwaukee Brewers 67% | Houston Astros 66%
+[2026-08-20 21:03] 9 partidos (7 jugados) | Houston Astros 66% | Washington Nationals 51%
+[2026-08-20 22:00] 9 partidos (7 jugados) | Houston Astros 66% | Washington Nationals 59%
+[2026-08-21 00:01] 15 partidos (0 jugados) | New York Mets 68% | Boston Red Sox 67% | Arizona Diamondbacks 66%
+[2026-08-21 01:00] 15 partidos (0 jugados) | Arizona Diamondbacks 69% | San Francisco Giants 67% | New York Yankees 64%
+[2026-08-21 02:01] 15 partidos (0 jugados) | New York Mets 68% | Boston Red Sox 67% | New York Yankees 64%
+[2026-08-21 03:00] 15 partidos (0 jugados) | Arizona Diamondbacks 68% | Boston Red Sox 67% | Los Angeles Dodgers 66%
+[2026-08-22 00:00] 15 partidos (0 jugados) | New York Mets 71% | Houston Astros 68% | San Diego Padres 66%
+[2026-08-22 19:00] 15 partidos (3 jugados) | New York Mets 69% | Houston Astros 68% | San Diego Padres 67%
+[2026-08-22 20:01] 15 partidos (4 jugados) | New York Mets 71% | Houston Astros 68% | San Diego Padres 67%
+[2026-08-22 21:00] 15 partidos (4 jugados) | New York Mets 69% | Houston Astros 68% | San Diego Padres 66%
+[2026-08-22 22:01] 15 partidos (12 jugados) | San Diego Padres 67% | Arizona Diamondbacks 57%
+[2026-08-22 23:00] 15 partidos (13 jugados) | San Diego Padres 67% | Arizona Diamondbacks 65%
+[2026-08-23 00:01] 15 partidos (0 jugados) | Boston Red Sox 69% | New York Mets 67% | Los Angeles Dodgers 64%
+[2026-08-23 01:00] 15 partidos (0 jugados) | San Francisco Giants 65% | Miami Marlins 64% | San Diego Padres 64%
+[2026-08-23 02:01] 15 partidos (0 jugados) | Boston Red Sox 69% | New York Mets 67% | Los Angeles Dodgers 64%
+[2026-08-23 22:00] 15 partidos (14 jugados)
+[2026-08-23 23:00] 15 partidos (15 jugados)
+[2026-08-24 00:00] 10 partidos (0 jugados) | Washington Nationals 70% | Cincinnati Reds 64% | Chicago White Sox 61%
+[2026-08-24 01:00] 10 partidos (0 jugados) | Colorado Rockies 63% | Cincinnati Reds 61% | Chicago White Sox 61%
+[2026-08-24 02:00] 10 partidos (0 jugados) | Washington Nationals 66% | San Diego Padres 61% | Chicago White Sox 61%
+[2026-08-24 03:00] 10 partidos (0 jugados) | Washington Nationals 77% | Chicago White Sox 61% | San Diego Padres 59%
+[2026-08-24 23:00] 10 partidos (2 jugados) | Cincinnati Reds 65% | San Diego Padres 58% | Philadelphia Phillies 57%
+[2026-08-25 00:00] 15 partidos (0 jugados) | New York Mets 71% | New York Yankees 67% | Washington Nationals 65%
+[2026-08-25 01:00] 15 partidos (0 jugados) | New York Mets 73% | New York Yankees 67% | Washington Nationals 64%
+[2026-08-25 02:00] 15 partidos (0 jugados) | New York Mets 69% | New York Yankees 67% | Washington Nationals 65%
+[2026-08-25 03:00] 15 partidos (0 jugados) | New York Mets 73% | New York Yankees 67% | Washington Nationals 65%
+[2026-08-25 20:43] 15 partidos (2 jugados) | New York Mets 73% | New York Yankees 67% | Toronto Blue Jays 60%
+[2026-08-25 21:01] 15 partidos (2 jugados) | New York Yankees 67% | Chicago White Sox 58% | San Francisco Giants 57%
+[2026-08-25 23:04] 15 partidos (9 jugados) | San Francisco Giants 57% | Chicago Cubs 54% | Minnesota Twins 53%
+[2026-08-26 00:00] 15 partidos (0 jugados) | New York Mets 72% | New York Yankees 63% | Chicago White Sox 61%
+[2026-08-26 01:00] 15 partidos (0 jugados) | New York Mets 71% | New York Yankees 63% | Chicago White Sox 61%
+[2026-08-26 02:00] 15 partidos (0 jugados) | New York Yankees 63% | Washington Nationals 62% | San Francisco Giants 62%
+[2026-08-26 22:00] 15 partidos (11 jugados) | Chicago White Sox 61% | St. Louis Cardinals 57% | Minnesota Twins 53%
+[2026-08-26 23:00] 15 partidos (15 jugados)
+[2026-08-27 22:00] 7 partidos (6 jugados) | San Francisco Giants 53%
+[2026-08-27 23:00] 7 partidos (5 jugados) | San Francisco Giants 82%
+[2026-08-28 22:00] 15 partidos (11 jugados) | Baltimore Orioles 61% | San Francisco Giants 56% | Chicago White Sox 52%
+[2026-08-28 23:00] 15 partidos (11 jugados) | Baltimore Orioles 56% | San Francisco Giants 52% | Chicago White Sox 52%
+[2026-08-29 00:00] 17 partidos (0 jugados) | New York Mets 86% | Atlanta Braves 76% | Philadelphia Phillies 68%
+[2026-08-29 01:00] 17 partidos (0 jugados) | Atlanta Braves 77% | Milwaukee Brewers 69% | New York Mets 67%
+[2026-08-29 02:00] 17 partidos (0 jugados) | New York Mets 85% | Atlanta Braves 77% | Milwaukee Brewers 69%
+[2026-08-29 21:51] 17 partidos (13 jugados) | Philadelphia Phillies 67% | Baltimore Orioles 64%
+[2026-08-29 22:00] 17 partidos (14 jugados) | Philadelphia Phillies 68% | Baltimore Orioles 58% | San Francisco Giants 51%
+[2026-08-29 23:00] 17 partidos (13 jugados) | Philadelphia Phillies 68% | Baltimore Orioles 63% | San Francisco Giants 51%
+[2026-08-30 00:00] 14 partidos (0 jugados) | New York Mets 70% | Milwaukee Brewers 69% | Philadelphia Phillies 67%
+[2026-08-30 01:00] 14 partidos (0 jugados) | New York Mets 86% | Atlanta Braves 69% | Milwaukee Brewers 69%
+[2026-08-30 02:00] 14 partidos (0 jugados) | New York Mets 79% | Milwaukee Brewers 69% | Philadelphia Phillies 68%
+[2026-08-30 03:00] 14 partidos (0 jugados) | New York Mets 87% | Atlanta Braves 69% | Milwaukee Brewers 69%
+[2026-08-30 04:00] 14 partidos (0 jugados) | Milwaukee Brewers 71% | Philadelphia Phillies 68% | Atlanta Braves 65%
+[2026-08-30 05:00] 14 partidos (0 jugados) | New York Mets 86% | Atlanta Braves 69% | Milwaukee Brewers 69%
+[2026-08-30 18:45] 14 partidos (13 jugados) | Chicago Cubs 65%
+[2026-08-30 18:51] 14 partidos (13 jugados) | Chicago Cubs 65%
+[2026-08-30 19:00] 14 partidos (13 jugados) | Chicago Cubs 62%
+[2026-08-30 20:50] 14 partidos (13 jugados) | Chicago Cubs 64%
