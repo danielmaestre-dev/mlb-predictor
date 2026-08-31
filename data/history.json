@@ -4300,8 +4300,8 @@
       "away_name": "Cincinnati Reds",
       "predicted_winner": "CHC",
       "predicted_prob": 64.20785523103628,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CIN",
+      "resolved": true,
       "diff": 8.083408208046933,
       "p_home_mkt": 56.124447022989344,
       "p_away_mkt": 43.87555297701066,
@@ -4331,8 +4331,8 @@
     }
   },
   "stats": {
-    "total": 241,
+    "total": 242,
     "correct": 134,
-    "accuracy": 0.5560165975103735
+    "accuracy": 0.5537190082644629
   }
 }
