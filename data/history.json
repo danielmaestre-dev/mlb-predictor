@@ -4518,6 +4518,25 @@
       "ev_away": -1.9752466717224304,
       "ev": -1.9752466717224304,
       "conf": "A"
+    },
+    "401816757": {
+      "date_predicted": "2026-08-31",
+      "game_date": "08-31 20:40",
+      "home_abbr": "ARI",
+      "away_abbr": "PHI",
+      "home_name": "Arizona Diamondbacks",
+      "away_name": "Philadelphia Phillies",
+      "predicted_winner": "ARI",
+      "predicted_prob": 52.09727305243108,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 3.7393787980823063,
+      "p_home_mkt": 48.35789425434877,
+      "p_away_mkt": 51.64210574565122,
+      "ev_home": 5.757464296435111,
+      "ev_away": -8.941663189756365,
+      "ev": 5.757464296435111,
+      "conf": "B"
     }
   },
   "stats": {
