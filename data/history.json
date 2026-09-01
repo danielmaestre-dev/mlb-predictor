@@ -4720,13 +4720,13 @@
       "predicted_prob": 56.32462249922321,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 4.689834201100965,
+      "p_home_mkt": 47.23582925122463,
+      "p_away_mkt": 52.76417074877537,
+      "ev_home": -11.50433029574277,
+      "ev_away": 6.983319561838686,
+      "ev": 6.983319561838686,
+      "conf": "B"
     },
     "401816769": {
       "date_predicted": "2026-09-01",
@@ -4784,6 +4784,25 @@
       "ev_away": -11.998058508088317,
       "ev": 0.5355508011839927,
       "conf": "B"
+    },
+    "401816771": {
+      "date_predicted": "2026-09-01",
+      "game_date": "09-01 20:40",
+      "home_abbr": "ARI",
+      "away_abbr": "PHI",
+      "home_name": "Arizona Diamondbacks",
+      "away_name": "Philadelphia Phillies",
+      "predicted_winner": "ARI",
+      "predicted_prob": 51.957122816489864,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 7.103487311296284,
+      "p_home_mkt": 44.85363550519358,
+      "p_away_mkt": 55.14636449480642,
+      "ev_home": 13.786098968112803,
+      "ev_away": -14.423625016872577,
+      "ev": 13.786098968112803,
+      "conf": "C"
     }
   },
   "stats": {
