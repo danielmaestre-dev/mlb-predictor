@@ -5136,8 +5136,8 @@
       "away_name": "Milwaukee Brewers",
       "predicted_winner": "MIL",
       "predicted_prob": 56.946954502409305,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHC",
+      "resolved": true,
       "diff": 5.96527910973915,
       "p_home_mkt": 49.018324607329845,
       "p_away_mkt": 50.981675392670155,
@@ -5155,8 +5155,8 @@
       "away_name": "Miami Marlins",
       "predicted_winner": "MIA",
       "predicted_prob": 54.00536343936356,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "KC",
+      "resolved": true,
       "diff": 1.8314503958853052,
       "p_home_mkt": 47.82608695652174,
       "p_away_mkt": 52.17391304347826,
@@ -5231,8 +5231,8 @@
       "away_name": "Boston Red Sox",
       "predicted_winner": "BAL",
       "predicted_prob": 51.3371235743539,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BOS",
+      "resolved": true,
       "diff": 6.4428913418169955,
       "p_home_mkt": 44.89423223253691,
       "p_away_mkt": 55.1057677674631,
@@ -5243,8 +5243,8 @@
     }
   },
   "stats": {
-    "total": 284,
+    "total": 287,
     "correct": 154,
-    "accuracy": 0.5422535211267606
+    "accuracy": 0.5365853658536586
   }
 }
