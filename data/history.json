@@ -5250,8 +5250,8 @@
       "away_name": "Detroit Tigers",
       "predicted_winner": "CLE",
       "predicted_prob": 54.29817480918659,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CLE",
+      "resolved": true,
       "diff": -1.0000258019266113,
       "p_home_mkt": 55.2982006111132,
       "p_away_mkt": 44.70179938888678,
@@ -5547,8 +5547,8 @@
     }
   },
   "stats": {
-    "total": 290,
-    "correct": 155,
-    "accuracy": 0.5344827586206896
+    "total": 291,
+    "correct": 156,
+    "accuracy": 0.5360824742268041
   }
 }
