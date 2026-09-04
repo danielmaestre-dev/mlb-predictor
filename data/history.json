@@ -5525,6 +5525,25 @@
       "ev_away": 17.574129917311645,
       "ev": -12.41919206124239,
       "conf": "B"
+    },
+    "401816799": {
+      "date_predicted": "2026-09-04",
+      "game_date": "09-04 18:05",
+      "home_abbr": "BAL",
+      "away_abbr": "BOS",
+      "home_name": "Baltimore Orioles",
+      "away_name": "Boston Red Sox",
+      "predicted_winner": "BOS",
+      "predicted_prob": 52.84228677299138,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 0.6683737295131209,
+      "p_home_mkt": 47.82608695652174,
+      "p_away_mkt": 52.17391304347826,
+      "ev_home": -5.684573545982763,
+      "ev_away": -3.1224742495158053,
+      "ev": -3.1224742495158053,
+      "conf": "A"
     }
   },
   "stats": {
