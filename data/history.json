@@ -6095,6 +6095,25 @@
       "ev_away": -18.40811250883484,
       "ev": 10.990668191456198,
       "conf": "C"
+    },
+    "401816830": {
+      "date_predicted": "2026-09-06",
+      "game_date": "09-06 12:40",
+      "home_abbr": "MIA",
+      "away_abbr": "CHC",
+      "home_name": "Miami Marlins",
+      "away_name": "Chicago Cubs",
+      "predicted_winner": "CHC",
+      "predicted_prob": 51.029264312284795,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": -4.268936298828407,
+      "p_home_mkt": 44.70179938888678,
+      "p_away_mkt": 55.2982006111132,
+      "ev_home": 4.797374371710528,
+      "ev_away": -11.723097503565716,
+      "ev": -11.723097503565716,
+      "conf": "B"
     }
   },
   "stats": {
