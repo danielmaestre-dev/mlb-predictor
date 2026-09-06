@@ -5839,8 +5839,8 @@
       "away_name": "Milwaukee Brewers",
       "predicted_winner": "MIL",
       "predicted_prob": 60.411640798728676,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CIN",
+      "resolved": true,
       "diff": 1.120564256665375,
       "p_home_mkt": 40.70892345793669,
       "p_away_mkt": 59.2910765420633,
@@ -6117,8 +6117,8 @@
     }
   },
   "stats": {
-    "total": 321,
+    "total": 322,
     "correct": 173,
-    "accuracy": 0.5389408099688473
+    "accuracy": 0.5372670807453416
   }
 }
