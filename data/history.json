@@ -6076,6 +6076,25 @@
       "ev_away": 5.71102829634389,
       "ev": -9.444402381603068,
       "conf": "B"
+    },
+    "401816837": {
+      "date_predicted": "2026-09-06",
+      "game_date": "09-06 13:10",
+      "home_abbr": "KC",
+      "away_abbr": "TOR",
+      "home_name": "Kansas City Royals",
+      "away_name": "Toronto Blue Jays",
+      "predicted_winner": "KC",
+      "predicted_prob": 55.4953340957281,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 7.669247139206355,
+      "p_home_mkt": 47.82608695652174,
+      "p_away_mkt": 52.17391304347826,
+      "ev_home": 10.990668191456198,
+      "ev_away": -18.40811250883484,
+      "ev": 10.990668191456198,
+      "conf": "C"
     }
   },
   "stats": {
