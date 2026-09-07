@@ -6010,8 +6010,8 @@
       "away_name": "Athletics",
       "predicted_winner": "SEA",
       "predicted_prob": 61.615207543512525,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SEA",
+      "resolved": true,
       "diff": -1.7311691962962783,
       "p_home_mkt": 63.346376739808804,
       "p_away_mkt": 36.653623260191196,
@@ -6029,8 +6029,8 @@
       "away_name": "New York Yankees",
       "predicted_winner": "NYY",
       "predicted_prob": 51.725162576317764,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": 1.3981942268539882,
       "p_home_mkt": 49.67303165053624,
       "p_away_mkt": 50.326968349463776,
@@ -6048,8 +6048,8 @@
       "away_name": "Minnesota Twins",
       "predicted_winner": "CHW",
       "predicted_prob": 62.91699378465005,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 5.579109825605684,
       "p_home_mkt": 57.33788395904437,
       "p_away_mkt": 42.66211604095563,
@@ -6117,8 +6117,8 @@
     }
   },
   "stats": {
-    "total": 332,
-    "correct": 180,
-    "accuracy": 0.5421686746987951
+    "total": 335,
+    "correct": 182,
+    "accuracy": 0.5432835820895522
   }
 }
