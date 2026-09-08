@@ -6257,8 +6257,8 @@
       "away_name": "Washington Nationals",
       "predicted_winner": "SD",
       "predicted_prob": 55.0039996100696,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": -9.052087129829317,
       "p_home_mkt": 64.05608673989892,
       "p_away_mkt": 35.94391326010106,
@@ -6326,8 +6326,8 @@
     }
   },
   "stats": {
-    "total": 343,
-    "correct": 189,
-    "accuracy": 0.5510204081632653
+    "total": 344,
+    "correct": 190,
+    "accuracy": 0.5523255813953488
   }
 }
