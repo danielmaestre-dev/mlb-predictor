@@ -6639,13 +6639,13 @@
       "predicted_prob": 54.22408217829117,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": -7.974231284792566,
+      "p_home_mkt": 37.80168653678395,
+      "p_away_mkt": 62.198313463216046,
+      "ev_home": 15.81307208858862,
+      "ev_away": -16.6231854675854,
+      "ev": -16.6231854675854,
+      "conf": "C"
     },
     "401816879": {
       "date_predicted": "2026-09-09",
