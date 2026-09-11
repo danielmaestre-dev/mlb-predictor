@@ -6998,8 +6998,8 @@
       "away_name": "Pittsburgh Pirates",
       "predicted_winner": "CHC",
       "predicted_prob": 56.74097989132483,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHC",
+      "resolved": true,
       "diff": -8.034375187561658,
       "p_home_mkt": 63.64166980799397,
       "p_away_mkt": 36.358330192006036,
@@ -7257,8 +7257,8 @@
     }
   },
   "stats": {
-    "total": 382,
-    "correct": 208,
-    "accuracy": 0.5445026178010471
+    "total": 383,
+    "correct": 209,
+    "accuracy": 0.5456919060052219
   }
 }
