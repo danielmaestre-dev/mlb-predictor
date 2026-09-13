@@ -7549,8 +7549,8 @@
       "away_name": "Colorado Rockies",
       "predicted_winner": "DET",
       "predicted_prob": 65.2563379041073,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "DET",
+      "resolved": true,
       "diff": 7.0018209123911745,
       "p_home_mkt": 58.25451699171612,
       "p_away_mkt": 41.74548300828387,
@@ -7827,8 +7827,8 @@
     }
   },
   "stats": {
-    "total": 411,
-    "correct": 229,
-    "accuracy": 0.5571776155717761
+    "total": 412,
+    "correct": 230,
+    "accuracy": 0.558252427184466
   }
 }
