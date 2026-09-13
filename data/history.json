@@ -7703,13 +7703,13 @@
       "predicted_prob": 53.36572497346437,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 2.709752724814031,
+      "p_home_mkt": 54.31991809088762,
+      "p_away_mkt": 45.68008190911239,
+      "ev_home": 0.23396688820289668,
+      "ev_away": -10.192012004816453,
+      "ev": 0.23396688820289668,
+      "conf": "A"
     },
     "401816926": {
       "date_predicted": "2026-09-13",
@@ -7722,13 +7722,13 @@
       "predicted_prob": 56.31686752113036,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 14.490307464615277,
+      "p_home_mkt": 45.76160383525823,
+      "p_away_mkt": 54.23839616474177,
+      "ev_home": 25.926494616735617,
+      "ev_away": -29.90985885702886,
+      "ev": 25.926494616735617,
+      "conf": "D"
     },
     "401816929": {
       "date_predicted": "2026-09-13",
