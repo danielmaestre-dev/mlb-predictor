@@ -7995,6 +7995,25 @@
       "ev_away": -19.279387559147708,
       "ev": 7.433654951913926,
       "conf": "B"
+    },
+    "401816937": {
+      "date_predicted": "2026-09-14",
+      "game_date": "09-14 18:40",
+      "home_abbr": "CHC",
+      "away_abbr": "ATL",
+      "home_name": "Chicago Cubs",
+      "away_name": "Atlanta Braves",
+      "predicted_winner": "ATL",
+      "predicted_prob": 58.04829274512357,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 13.15406051258666,
+      "p_home_mkt": 55.1057677674631,
+      "p_away_mkt": 44.89423223253691,
+      "ev_home": -27.201449175361493,
+      "ev_away": 23.64286354711318,
+      "ev": 23.64286354711318,
+      "conf": "D"
     }
   },
   "stats": {
