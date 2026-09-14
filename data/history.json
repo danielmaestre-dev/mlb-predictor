@@ -7758,8 +7758,8 @@
       "away_name": "Kansas City Royals",
       "predicted_winner": "BOS",
       "predicted_prob": 69.40226746715972,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BOS",
+      "resolved": true,
       "diff": 6.488225605749442,
       "p_home_mkt": 62.914041861410276,
       "p_away_mkt": 37.08595813858972,
@@ -7777,8 +7777,8 @@
       "away_name": "Seattle Mariners",
       "predicted_winner": "SEA",
       "predicted_prob": 56.46746986184466,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ATH",
+      "resolved": true,
       "diff": -0.6952944301366841,
       "p_home_mkt": 42.837235708018646,
       "p_away_mkt": 57.16276429198135,
@@ -7796,8 +7796,8 @@
       "away_name": "Texas Rangers",
       "predicted_winner": "ARI",
       "predicted_prob": 67.37685443788662,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TEX",
+      "resolved": true,
       "diff": 10.998135902417516,
       "p_home_mkt": 56.378718535469105,
       "p_away_mkt": 43.621281464530895,
@@ -7815,8 +7815,8 @@
       "away_name": "San Diego Padres",
       "predicted_winner": "SD",
       "predicted_prob": 56.02547023316856,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": 1.2355411662108864,
       "p_home_mkt": 45.210070933042324,
       "p_away_mkt": 54.789929066957676,
@@ -7827,8 +7827,8 @@
     }
   },
   "stats": {
-    "total": 422,
-    "correct": 235,
-    "accuracy": 0.556872037914692
+    "total": 426,
+    "correct": 237,
+    "accuracy": 0.5563380281690141
   }
 }
