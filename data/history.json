@@ -8670,8 +8670,8 @@
       "away_name": "Philadelphia Phillies",
       "predicted_winner": "NYM",
       "predicted_prob": 56.547383308174325,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PHI",
+      "resolved": true,
       "diff": 1.2491826970611228,
       "p_home_mkt": 55.2982006111132,
       "p_away_mkt": 44.70179938888678,
@@ -8689,8 +8689,8 @@
       "away_name": "Kansas City Royals",
       "predicted_winner": "HOU",
       "predicted_prob": 63.43139730330735,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "HOU",
+      "resolved": true,
       "diff": 6.268633011326003,
       "p_home_mkt": 57.16276429198135,
       "p_away_mkt": 42.837235708018646,
@@ -8727,8 +8727,8 @@
       "away_name": "Detroit Tigers",
       "predicted_winner": "DET",
       "predicted_prob": 51.367862278588646,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 2.668590686497083,
       "p_home_mkt": 51.30072840790842,
       "p_away_mkt": 48.69927159209156,
@@ -8736,11 +8736,30 @@
       "ev_away": 0.7600375464623665,
       "ev": 0.7600375464623665,
       "conf": "A"
+    },
+    "401816981": {
+      "date_predicted": "2026-09-17",
+      "game_date": "09-17 20:38",
+      "home_abbr": "LAA",
+      "away_abbr": "MIN",
+      "home_name": "Los Angeles Angels",
+      "away_name": "Minnesota Twins",
+      "predicted_winner": "LAA",
+      "predicted_prob": 53.24680395723751,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     }
   },
   "stats": {
-    "total": 470,
-    "correct": 259,
-    "accuracy": 0.551063829787234
+    "total": 473,
+    "correct": 260,
+    "accuracy": 0.5496828752642706
   }
 }
