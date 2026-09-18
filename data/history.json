@@ -9002,6 +9002,25 @@
       "ev_away": 4.7037047427968215,
       "ev": -7.7509364867018204,
       "conf": "A"
+    },
+    "401816990": {
+      "date_predicted": "2026-09-18",
+      "game_date": "09-18 19:05",
+      "home_abbr": "TEX",
+      "away_abbr": "TOR",
+      "home_name": "Texas Rangers",
+      "away_name": "Toronto Blue Jays",
+      "predicted_winner": "TOR",
+      "predicted_prob": 52.66261171550758,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": -2.635588895605622,
+      "p_home_mkt": 44.70179938888678,
+      "p_away_mkt": 55.2982006111132,
+      "ev_home": 1.3020109288137682,
+      "ev_away": -8.89752571842849,
+      "ev": -8.89752571842849,
+      "conf": "A"
     }
   },
   "stats": {
