@@ -9021,6 +9021,25 @@
       "ev_away": -8.89752571842849,
       "ev": -8.89752571842849,
       "conf": "A"
+    },
+    "401816988": {
+      "date_predicted": "2026-09-18",
+      "game_date": "09-18 19:10",
+      "home_abbr": "HOU",
+      "away_abbr": "ATL",
+      "home_name": "Houston Astros",
+      "away_name": "Atlanta Braves",
+      "predicted_winner": "ATL",
+      "predicted_prob": 53.539296639991704,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 1.3653835965134462,
+      "p_home_mkt": 47.82608695652174,
+      "p_away_mkt": 52.17391304347826,
+      "ev_home": -7.078593279983414,
+      "ev_away": -1.8446228266818632,
+      "ev": -1.8446228266818632,
+      "conf": "A"
     }
   },
   "stats": {
