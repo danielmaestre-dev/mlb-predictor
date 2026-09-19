@@ -9306,6 +9306,25 @@
       "ev_away": -9.030095675690719,
       "ev": -0.1222067912682423,
       "conf": "A"
+    },
+    "401817004": {
+      "date_predicted": "2026-09-19",
+      "game_date": "09-19 13:10",
+      "home_abbr": "CHW",
+      "away_abbr": "DET",
+      "home_name": "Chicago White Sox",
+      "away_name": "Detroit Tigers",
+      "predicted_winner": "DET",
+      "predicted_prob": 52.22123826124399,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": null,
+      "p_home_mkt": null,
+      "p_away_mkt": null,
+      "ev_home": null,
+      "ev_away": null,
+      "ev": null,
+      "conf": "N/A"
     }
   },
   "stats": {
