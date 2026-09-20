@@ -9392,8 +9392,8 @@
       "away_name": "Boston Red Sox",
       "predicted_winner": "TB",
       "predicted_prob": 59.90480872757685,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": 2.5669247685324805,
       "p_home_mkt": 57.33788395904437,
       "p_away_mkt": 42.66211604095563,
@@ -9613,8 +9613,8 @@
     }
   },
   "stats": {
-    "total": 505,
-    "correct": 284,
-    "accuracy": 0.5623762376237624
+    "total": 506,
+    "correct": 285,
+    "accuracy": 0.5632411067193676
   }
 }
