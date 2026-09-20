@@ -9565,13 +9565,13 @@
       "predicted_prob": 71.53498793668373,
       "actual_winner": null,
       "resolved": false,
-      "diff": null,
-      "p_home_mkt": null,
-      "p_away_mkt": null,
-      "ev_home": null,
-      "ev_away": null,
-      "ev": null,
-      "conf": "N/A"
+      "diff": 2.4435487842719112,
+      "p_home_mkt": 70.92914071948499,
+      "p_away_mkt": 29.07085928051501,
+      "ev_home": -1.0619134566065447,
+      "ev_away": -12.396148467360213,
+      "ev": -1.0619134566065447,
+      "conf": "A"
     },
     "401817016": {
       "date_predicted": "2026-09-20",
@@ -9591,6 +9591,25 @@
       "ev_away": -7.885223420915477,
       "ev": -7.885223420915477,
       "conf": "A"
+    },
+    "401817024": {
+      "date_predicted": "2026-09-20",
+      "game_date": "09-20 15:07",
+      "home_abbr": "LAA",
+      "away_abbr": "MIN",
+      "home_name": "Los Angeles Angels",
+      "away_name": "Minnesota Twins",
+      "predicted_winner": "LAA",
+      "predicted_prob": 51.58712584159192,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 3.6371905804784035,
+      "p_home_mkt": 47.94993526111352,
+      "p_away_mkt": 52.05006473888649,
+      "ev_home": 2.6634880609898604,
+      "ev_away": -11.243064042918515,
+      "ev": 2.6634880609898604,
+      "conf": "B"
     }
   },
   "stats": {
