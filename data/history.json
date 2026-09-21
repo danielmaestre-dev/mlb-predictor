@@ -9449,8 +9449,8 @@
       "away_name": "Detroit Tigers",
       "predicted_winner": "DET",
       "predicted_prob": 53.330040250098506,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": 5.597858824612544,
       "p_home_mkt": 52.267818574514045,
       "p_away_mkt": 47.73218142548596,
@@ -9544,8 +9544,8 @@
       "away_name": "New York Yankees",
       "predicted_winner": "NYY",
       "predicted_prob": 57.72266902548646,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ARI",
+      "resolved": true,
       "diff": 6.740993632816306,
       "p_home_mkt": 49.018324607329845,
       "p_away_mkt": 50.981675392670155,
@@ -9582,8 +9582,8 @@
       "away_name": "Milwaukee Brewers",
       "predicted_winner": "MIL",
       "predicted_prob": 62.01190841598501,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIL",
+      "resolved": true,
       "diff": -2.3270809556353598,
       "p_home_mkt": 35.66101062837964,
       "p_away_mkt": 64.33898937162037,
@@ -9601,8 +9601,8 @@
       "away_name": "Minnesota Twins",
       "predicted_winner": "LAA",
       "predicted_prob": 51.58712584159192,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIN",
+      "resolved": true,
       "diff": 3.6371905804784035,
       "p_home_mkt": 47.94993526111352,
       "p_away_mkt": 52.05006473888649,
@@ -9613,8 +9613,8 @@
     }
   },
   "stats": {
-    "total": 516,
-    "correct": 293,
-    "accuracy": 0.5678294573643411
+    "total": 520,
+    "correct": 294,
+    "accuracy": 0.5653846153846154
   }
 }
