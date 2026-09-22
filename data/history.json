@@ -9620,8 +9620,8 @@
       "away_name": "Toronto Blue Jays",
       "predicted_winner": "BAL",
       "predicted_prob": 51.540435886868394,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BAL",
+      "resolved": true,
       "diff": 0.9953935915862786,
       "p_home_mkt": 50.545042295282116,
       "p_away_mkt": 49.454957704717884,
@@ -9639,8 +9639,8 @@
       "away_name": "Washington Nationals",
       "predicted_winner": "DET",
       "predicted_prob": 60.64137665330992,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "DET",
+      "resolved": true,
       "diff": 2.386859661593796,
       "p_home_mkt": 58.25451699171612,
       "p_away_mkt": 41.74548300828387,
@@ -9670,8 +9670,8 @@
     }
   },
   "stats": {
-    "total": 520,
-    "correct": 294,
-    "accuracy": 0.5653846153846154
+    "total": 522,
+    "correct": 296,
+    "accuracy": 0.5670498084291188
   }
 }
