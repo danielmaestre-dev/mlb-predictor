@@ -10465,6 +10465,25 @@
       "ev_away": 0.27983107424978115,
       "ev": -7.587048878016034,
       "conf": "A"
+    },
+    "401817067": {
+      "date_predicted": "2026-09-24",
+      "game_date": "09-24 13:35",
+      "home_abbr": "TEX",
+      "away_abbr": "NYM",
+      "home_name": "Texas Rangers",
+      "away_name": "New York Mets",
+      "predicted_winner": "NYM",
+      "predicted_prob": 51.81416773070801,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 6.725909864245999,
+      "p_home_mkt": 54.911742133538,
+      "p_away_mkt": 45.08825786646201,
+      "ev_home": -16.120958642343563,
+      "ev_away": 9.846035589100977,
+      "ev": 9.846035589100977,
+      "conf": "B"
     }
   },
   "stats": {
