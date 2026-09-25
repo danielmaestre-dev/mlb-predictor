@@ -10494,8 +10494,8 @@
       "away_name": "Chicago Cubs",
       "predicted_winner": "BOS",
       "predicted_prob": 55.59858908860399,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BOS",
+      "resolved": true,
       "diff": 7.64865382749047,
       "p_home_mkt": 47.94993526111352,
       "p_away_mkt": 52.05006473888649,
@@ -10513,8 +10513,8 @@
       "away_name": "Baltimore Orioles",
       "predicted_winner": "NYY",
       "predicted_prob": 58.13326727900733,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "BAL",
+      "resolved": true,
       "diff": 1.8249442842395354,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -10810,8 +10810,8 @@
     }
   },
   "stats": {
-    "total": 565,
-    "correct": 317,
-    "accuracy": 0.5610619469026549
+    "total": 567,
+    "correct": 318,
+    "accuracy": 0.5608465608465608
   }
 }
