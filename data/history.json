@@ -11320,6 +11320,25 @@
       "ev_away": -25.302196419901712,
       "ev": 19.888928486990554,
       "conf": "C"
+    },
+    "401817105": {
+      "date_predicted": "2026-09-27",
+      "game_date": "09-27 14:07",
+      "home_abbr": "TOR",
+      "away_abbr": "CIN",
+      "home_name": "Toronto Blue Jays",
+      "away_name": "Cincinnati Reds",
+      "predicted_winner": "CIN",
+      "predicted_prob": 53.111229840634124,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 14.706987606901258,
+      "p_home_mkt": 61.59575776626715,
+      "p_away_mkt": 38.404242233732866,
+      "ev_home": -27.205831962531434,
+      "ev_away": 32.24696230317898,
+      "ev": 32.24696230317898,
+      "conf": "D"
     }
   },
   "stats": {
