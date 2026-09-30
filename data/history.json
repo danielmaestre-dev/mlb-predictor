@@ -11368,8 +11368,8 @@
       "away_name": "Chicago White Sox",
       "predicted_winner": "HOU",
       "predicted_prob": 51.94588505375931,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CHW",
+      "resolved": true,
       "diff": -1.388824836804389,
       "p_home_mkt": 53.3347098905637,
       "p_away_mkt": 46.665290109436306,
@@ -11387,8 +11387,8 @@
       "away_name": "Boston Red Sox",
       "predicted_winner": "NYY",
       "predicted_prob": 57.53824761607186,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "NYY",
+      "resolved": true,
       "diff": 0.9779639281286023,
       "p_home_mkt": 56.560283687943254,
       "p_away_mkt": 43.43971631205674,
@@ -11418,8 +11418,8 @@
     }
   },
   "stats": {
-    "total": 610,
-    "correct": 343,
-    "accuracy": 0.5622950819672131
+    "total": 612,
+    "correct": 344,
+    "accuracy": 0.5620915032679739
   }
 }
