@@ -11425,8 +11425,8 @@
       "away_name": "Philadelphia Phillies",
       "predicted_winner": "ATL",
       "predicted_prob": 65.9518127314935,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "PHI",
+      "resolved": true,
       "diff": 16.81821370186259,
       "p_home_mkt": 49.133599029630915,
       "p_away_mkt": 50.866400970369085,
@@ -11494,8 +11494,8 @@
     }
   },
   "stats": {
-    "total": 613,
+    "total": 614,
     "correct": 345,
-    "accuracy": 0.5628058727569332
+    "accuracy": 0.5618892508143323
   }
 }
