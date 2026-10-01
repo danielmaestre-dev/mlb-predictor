@@ -11482,8 +11482,8 @@
       "away_name": "Chicago Cubs",
       "predicted_winner": "SD",
       "predicted_prob": 59.76489744973035,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "SD",
+      "resolved": true,
       "diff": 3.204613761787094,
       "p_home_mkt": 56.560283687943254,
       "p_away_mkt": 43.43971631205674,
@@ -11491,11 +11491,30 @@
       "ev_away": -11.482774389406758,
       "ev": 0.9820681047167934,
       "conf": "B"
+    },
+    "401907973": {
+      "date_predicted": "2026-10-01",
+      "game_date": "10-01 19:00",
+      "home_abbr": "ATL",
+      "away_abbr": "PHI",
+      "home_name": "Atlanta Braves",
+      "away_name": "Philadelphia Phillies",
+      "predicted_winner": "ATL",
+      "predicted_prob": 57.49328451129209,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 9.22969708291911,
+      "p_home_mkt": 48.26358742837298,
+      "p_away_mkt": 51.736412571627014,
+      "ev_home": 13.859249718441191,
+      "ev_away": -21.47064426662436,
+      "ev": 13.859249718441191,
+      "conf": "C"
     }
   },
   "stats": {
-    "total": 616,
-    "correct": 347,
-    "accuracy": 0.5633116883116883
+    "total": 617,
+    "correct": 348,
+    "accuracy": 0.5640194489465153
   }
 }
