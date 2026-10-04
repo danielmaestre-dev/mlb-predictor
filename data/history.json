@@ -11596,8 +11596,8 @@
       "away_name": "San Diego Padres",
       "predicted_winner": "MIL",
       "predicted_prob": 60.93923687803768,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIL",
+      "resolved": true,
       "diff": 4.630913883269891,
       "p_home_mkt": 56.30832299476779,
       "p_away_mkt": 43.691677005232215,
@@ -11627,8 +11627,8 @@
     }
   },
   "stats": {
-    "total": 622,
-    "correct": 352,
-    "accuracy": 0.5659163987138264
+    "total": 623,
+    "correct": 353,
+    "accuracy": 0.5666131621187801
   }
 }
