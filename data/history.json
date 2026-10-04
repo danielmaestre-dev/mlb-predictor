@@ -11558,8 +11558,8 @@
       "away_name": "New York Yankees",
       "predicted_winner": "TB",
       "predicted_prob": 53.116953692888266,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": -2.0654369578180507,
       "p_home_mkt": 55.18239065070632,
       "p_away_mkt": 44.817609349293704,
@@ -11589,8 +11589,8 @@
     }
   },
   "stats": {
-    "total": 620,
-    "correct": 350,
-    "accuracy": 0.5645161290322581
+    "total": 621,
+    "correct": 351,
+    "accuracy": 0.5652173913043478
   }
 }
