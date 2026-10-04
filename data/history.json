@@ -11577,8 +11577,8 @@
       "away_name": "San Diego Padres",
       "predicted_winner": "MIL",
       "predicted_prob": 56.28303369297437,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIL",
+      "resolved": true,
       "diff": -7.773053046924545,
       "p_home_mkt": 64.05608673989892,
       "p_away_mkt": 35.94391326010106,
@@ -11586,11 +11586,49 @@
       "ev_away": 16.287130376688186,
       "ev": -15.991333945954512,
       "conf": "C"
+    },
+    "401908003": {
+      "date_predicted": "2026-10-04",
+      "game_date": "10-04 15:00",
+      "home_abbr": "MIL",
+      "away_abbr": "SD",
+      "home_name": "Milwaukee Brewers",
+      "away_name": "San Diego Padres",
+      "predicted_winner": "MIL",
+      "predicted_prob": 60.93923687803768,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 4.630913883269891,
+      "p_home_mkt": 56.30832299476779,
+      "p_away_mkt": 43.691677005232215,
+      "ev_home": 3.554087841700393,
+      "ev_away": -14.456928762902532,
+      "ev": 3.554087841700393,
+      "conf": "B"
+    },
+    "401908014": {
+      "date_predicted": "2026-10-04",
+      "game_date": "10-04 19:00",
+      "home_abbr": "LAD",
+      "away_abbr": "ATL",
+      "home_name": "Los Angeles Dodgers",
+      "away_name": "Atlanta Braves",
+      "predicted_winner": "LAD",
+      "predicted_prob": 61.98075558574247,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 3.559788104752336,
+      "p_home_mkt": 58.420967480990136,
+      "p_away_mkt": 41.579032519009864,
+      "ev_home": 1.4589438569160285,
+      "ev_away": -12.555737847207682,
+      "ev": 1.4589438569160285,
+      "conf": "B"
     }
   },
   "stats": {
-    "total": 621,
-    "correct": 351,
-    "accuracy": 0.5652173913043478
+    "total": 622,
+    "correct": 352,
+    "accuracy": 0.5659163987138264
   }
 }
