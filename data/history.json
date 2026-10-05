@@ -11615,8 +11615,8 @@
       "away_name": "Atlanta Braves",
       "predicted_winner": "LAD",
       "predicted_prob": 61.98075558574247,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "ATL",
+      "resolved": true,
       "diff": 3.559788104752336,
       "p_home_mkt": 58.420967480990136,
       "p_away_mkt": 41.579032519009864,
@@ -11627,8 +11627,8 @@
     }
   },
   "stats": {
-    "total": 623,
+    "total": 624,
     "correct": 353,
-    "accuracy": 0.5666131621187801
+    "accuracy": 0.5657051282051282
   }
 }
