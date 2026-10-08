@@ -11729,8 +11729,8 @@
       "away_name": "Los Angeles Dodgers",
       "predicted_winner": "ATL",
       "predicted_prob": 56.289080008983724,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "LAD",
+      "resolved": true,
       "diff": 13.385474722152367,
       "p_home_mkt": 42.90360528683136,
       "p_away_mkt": 57.09639471316864,
@@ -11748,8 +11748,8 @@
       "away_name": "Tampa Bay Rays",
       "predicted_winner": "NYY",
       "predicted_prob": 53.67934875478456,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": -6.1376454961861455,
       "p_home_mkt": 59.81699425097071,
       "p_away_mkt": 40.18300574902929,
@@ -11767,8 +11767,8 @@
       "away_name": "Milwaukee Brewers",
       "predicted_winner": "MIL",
       "predicted_prob": 51.54054457168154,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIL",
+      "resolved": true,
       "diff": 2.6239681903164254,
       "p_home_mkt": 51.08342361863488,
       "p_away_mkt": 48.91657638136511,
@@ -11776,11 +11776,30 @@
       "ev_away": 0.6267774970925233,
       "ev": 0.6267774970925233,
       "conf": "A"
+    },
+    "401907993": {
+      "date_predicted": "2026-10-08",
+      "game_date": "10-08 19:00",
+      "home_abbr": "CHW",
+      "away_abbr": "CLE",
+      "home_name": "Chicago White Sox",
+      "away_name": "Cleveland Guardians",
+      "predicted_winner": "CHW",
+      "predicted_prob": 63.34934256369672,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 14.867714868585878,
+      "p_home_mkt": 48.481627695110845,
+      "p_away_mkt": 51.51837230488916,
+      "ev_home": 24.853558644955665,
+      "ev_away": -32.02399432754007,
+      "ev": 24.853558644955665,
+      "conf": "D"
     }
   },
   "stats": {
-    "total": 629,
-    "correct": 356,
-    "accuracy": 0.5659777424483307
+    "total": 632,
+    "correct": 357,
+    "accuracy": 0.564873417721519
   }
 }
