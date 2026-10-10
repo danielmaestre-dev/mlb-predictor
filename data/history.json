@@ -11795,6 +11795,25 @@
       "ev_away": -32.02399432754007,
       "ev": 24.853558644955665,
       "conf": "D"
+    },
+    "401907994": {
+      "date_predicted": "2026-10-10",
+      "game_date": "10-10 19:00",
+      "home_abbr": "CLE",
+      "away_abbr": "CHW",
+      "home_name": "Cleveland Guardians",
+      "away_name": "Chicago White Sox",
+      "predicted_winner": "CHW",
+      "predicted_prob": 52.83067668407617,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 8.128877295189383,
+      "p_home_mkt": 55.2982006111132,
+      "p_away_mkt": 44.70179938888678,
+      "ev_home": -18.400513679752205,
+      "ev_away": 13.05764810392298,
+      "ev": 13.05764810392298,
+      "conf": "C"
     }
   },
   "stats": {
