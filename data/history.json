@@ -11814,6 +11814,25 @@
       "ev_away": 13.05764810392298,
       "ev": 13.05764810392298,
       "conf": "C"
+    },
+    "401908030": {
+      "date_predicted": "2026-10-11",
+      "game_date": "10-11 19:00",
+      "home_abbr": "MIL",
+      "away_abbr": "LAD",
+      "home_name": "Milwaukee Brewers",
+      "away_name": "Los Angeles Dodgers",
+      "predicted_winner": "MIL",
+      "predicted_prob": 51.26536913683706,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 0.615765395119503,
+      "p_home_mkt": 50.649603741717556,
+      "p_away_mkt": 49.350396258282444,
+      "ev_home": -3.367047556227487,
+      "ev_away": -5.718985152572619,
+      "ev": -3.367047556227487,
+      "conf": "A"
     }
   },
   "stats": {
