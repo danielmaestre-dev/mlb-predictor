@@ -11824,8 +11824,8 @@
       "away_name": "Los Angeles Dodgers",
       "predicted_winner": "MIL",
       "predicted_prob": 51.26536913683706,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIL",
+      "resolved": true,
       "diff": 0.615765395119503,
       "p_home_mkt": 50.649603741717556,
       "p_away_mkt": 49.350396258282444,
@@ -11836,8 +11836,8 @@
     }
   },
   "stats": {
-    "total": 634,
-    "correct": 357,
-    "accuracy": 0.5630914826498423
+    "total": 635,
+    "correct": 358,
+    "accuracy": 0.5637795275590551
   }
 }
