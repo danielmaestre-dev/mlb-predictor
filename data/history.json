@@ -11843,8 +11843,8 @@
       "away_name": "Los Angeles Dodgers",
       "predicted_winner": "MIL",
       "predicted_prob": 56.8944946957334,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "MIL",
+      "resolved": true,
       "diff": 11.806236829271391,
       "p_home_mkt": 45.08825786646201,
       "p_away_mkt": 54.911742133538,
@@ -11862,8 +11862,8 @@
       "away_name": "Cleveland Guardians",
       "predicted_winner": "TB",
       "predicted_prob": 56.60350602505779,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CLE",
+      "resolved": true,
       "diff": -3.420865733424016,
       "p_home_mkt": 60.024371758481806,
       "p_away_mkt": 39.97562824151817,
@@ -11874,8 +11874,8 @@
     }
   },
   "stats": {
-    "total": 635,
-    "correct": 358,
-    "accuracy": 0.5637795275590551
+    "total": 637,
+    "correct": 359,
+    "accuracy": 0.5635792778649922
   }
 }
