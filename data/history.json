@@ -11871,6 +11871,25 @@
       "ev_away": 3.7176206001118706,
       "ev": -9.903295143547064,
       "conf": "B"
+    },
+    "401908024": {
+      "date_predicted": "2026-10-13",
+      "game_date": "10-13 19:00",
+      "home_abbr": "TB",
+      "away_abbr": "CLE",
+      "home_name": "Tampa Bay Rays",
+      "away_name": "Cleveland Guardians",
+      "predicted_winner": "TB",
+      "predicted_prob": 59.86088926220279,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 5.422554619626197,
+      "p_home_mkt": 54.43833464257659,
+      "p_away_mkt": 45.56166535742341,
+      "ev_home": 5.210047794174599,
+      "ev_away": -15.707867450625844,
+      "ev": 5.210047794174599,
+      "conf": "B"
     }
   },
   "stats": {
