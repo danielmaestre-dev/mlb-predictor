@@ -11919,8 +11919,8 @@
       "away_name": "Tampa Bay Rays",
       "predicted_winner": "CLE",
       "predicted_prob": 54.82475846388935,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "CLE",
+      "resolved": true,
       "diff": 0.10865365295929763,
       "p_home_mkt": 54.716104810930055,
       "p_away_mkt": 45.28389518906994,
@@ -11950,8 +11950,8 @@
     }
   },
   "stats": {
-    "total": 639,
-    "correct": 360,
-    "accuracy": 0.5633802816901409
+    "total": 640,
+    "correct": 361,
+    "accuracy": 0.5640625
   }
 }
