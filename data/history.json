@@ -12014,8 +12014,8 @@
       "away_name": "Cleveland Guardians",
       "predicted_winner": "TB",
       "predicted_prob": 65.47183275345603,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": 8.133948794411658,
       "p_home_mkt": 57.33788395904437,
       "p_away_mkt": 42.66211604095563,
@@ -12026,8 +12026,8 @@
     }
   },
   "stats": {
-    "total": 643,
-    "correct": 362,
-    "accuracy": 0.5629860031104199
+    "total": 644,
+    "correct": 363,
+    "accuracy": 0.5636645962732919
   }
 }
