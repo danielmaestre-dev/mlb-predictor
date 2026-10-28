@@ -12090,8 +12090,8 @@
       "away_name": "Milwaukee Brewers",
       "predicted_winner": "MIL",
       "predicted_prob": 61.37494903355458,
-      "actual_winner": null,
-      "resolved": false,
+      "actual_winner": "TB",
+      "resolved": true,
       "diff": 5.435866451328863,
       "p_home_mkt": 44.060917417774284,
       "p_away_mkt": 55.939082582225716,
@@ -12099,11 +12099,30 @@
       "ev_away": 4.903281681465632,
       "ev": 4.903281681465632,
       "conf": "B"
+    },
+    "401908046": {
+      "date_predicted": "2026-10-28",
+      "game_date": "10-28 19:00",
+      "home_abbr": "TB",
+      "away_abbr": "MIL",
+      "home_name": "Tampa Bay Rays",
+      "away_name": "Milwaukee Brewers",
+      "predicted_winner": "MIL",
+      "predicted_prob": 58.69140234646874,
+      "actual_winner": null,
+      "resolved": false,
+      "diff": 0.6665477721694302,
+      "p_home_mkt": 41.97514542570068,
+      "p_away_mkt": 58.02485457429931,
+      "ev_home": -5.816397349948721,
+      "ev_away": -3.1972974285515487,
+      "ev": -3.1972974285515487,
+      "conf": "A"
     }
   },
   "stats": {
-    "total": 647,
+    "total": 648,
     "correct": 366,
-    "accuracy": 0.5656877897990726
+    "accuracy": 0.5648148148148148
   }
 }
